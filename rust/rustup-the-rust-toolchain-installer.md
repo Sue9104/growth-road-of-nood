@@ -13,15 +13,15 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup​
 
 ## Configure rustup  
 ```
-curl https://sh.rustup.rs -sSf | 
+curl https://sh.rustup.rs -sSf | sh
 ```
+
 
 * Enable tab completion for zsh
 
 ```
 rustup completions zsh > ~/.zfunc/_rustup
 echo fpath+=~/.zfunc >> ~/.zshrc
-
 ```
 
 ## Install specified version
