@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Ubuntu Setup](ubuntu-setup.md)
   * [YADR](ubuntu-setup/yadr.md)
-  * terminator
+  * [terminator](ubuntu-setup/terminator.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
