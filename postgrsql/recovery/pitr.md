@@ -4,7 +4,7 @@
 
 ## Backgroud
 
-At all times, PostgreSQL maintains a write ahead log \(WAL\) in the pg_xlog/ subdirectory of the cluster's data directory. The log records every change made to the database's data files. if the system crashes, the database can be restored to consistency by "replaying" the log entries made since the last checkpoint.
+At all times, PostgreSQL maintains a write ahead log (WAL) in the pg_xlog/ subdirectory of the cluster's data directory. The log records every change made to the database's data files. if the system crashes, the database can be restored to consistency by "replaying" the log entries made since the last checkpoint.
 
 ## Priority
 
@@ -17,7 +17,7 @@ At all times, PostgreSQL maintains a write ahead log \(WAL\) in the pg_xlog/ sub
 
 ### Setting Up WAL Archiving
 
-Save the following setting in **postgresql.conf**, and <font color=red>always to test your proposed archive_command</font>. Once pg_xlog/ fills up, PostgreSQL will do a PANIC shutdown.
+Save the following setting in **postgresql.conf**, and <font color=red> always to test your proposed archive_command</font>. Once pg_xlog/ fills up, PostgreSQL will do a PANIC shutdown.
 
 ```
 wal_level = archive
@@ -57,19 +57,11 @@ recovery_command = 'cp /var/lib/postgresql/data/%f %p'
 recovery_target_time = '2017-10-18 16:10:00+08'
 ```
 
-
-
-Then start the server. Once the recovery process is completed, recovery.conf will be renamed to \*\*recovery.done\*\*
-
-
+Then start the server. Once the recovery process is completed, recovery.conf will be renamed to **recovery.done**
 
 ## Caveats
 
-
-
 - Operations on the hash indexes are not presently WAL-logged. REINDEX is  needed after recovery.
-
 - Not to modify any template databases while taking a base backup.
-
 - CRATE TABLESPACE are WAL-logged with absolute path.
 
