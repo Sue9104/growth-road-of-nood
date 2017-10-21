@@ -5,6 +5,7 @@
   * [YADR](ubuntu-setup/yadr.md)
   * [terminator](ubuntu-setup/terminator.md)
   * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
+  * [Gitbook](ubuntu-setup/gitbook.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
