@@ -7,7 +7,6 @@
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
-  * [Python](python.md)
 * [rust](rust.md)
   * [rustup ](rust/rustup-the-rust-toolchain-installer.md)
 * [postgrSQL](postgrsql.md)
@@ -17,4 +16,6 @@
     * [PITR](postgrsql/recovery/dgfh.md)
   * [postgrest](postgrsql/postgrest.md)
     * [Limits and Pagination](postgrsql/postgrest/limits-and-pagination.md)
+* [python](python.md)
+  * [pyenv](python/pyenv.md)
 
