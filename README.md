@@ -1,4 +1,4 @@
-# growth-road-of-nood
+# Growth Road of Nood
 
-[jbnmk](/rust.md "sdf")
+
 
