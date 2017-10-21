@@ -19,17 +19,11 @@ The idea behind this dump method is to generate a file with SQL commands that, w
 pg_dump dbname -n schema -t table | gzip > outfile
 ```
 
-
-
-
-
 ## restore
-
-
 
 ```sql
 
-psql dbname &lt; infile
+psql dbname < infile
 
 ```
 
