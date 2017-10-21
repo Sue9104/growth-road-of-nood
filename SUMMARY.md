@@ -1,9 +1,13 @@
 # Summary
 
 * [Introduction](README.md)
+* [Ubuntu Setup](ubuntu-setup.md)
+  * [YADR](ubuntu-setup/yadr.md)
+  * terminator
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
+  * [Python](python.md)
 * [rust](rust.md)
   * [rustup ](rust/rustup-the-rust-toolchain-installer.md)
 * [postgrSQL](postgrsql.md)
