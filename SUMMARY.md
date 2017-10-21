@@ -21,5 +21,5 @@
 * [python](python.md)
   * [pyenv](python/pyenv.md)
   * [argparse](python/argparse.md)
-  * decorator @
+  * [decorator @](python/decorator.md)
 

@@ -1,4 +1,6 @@
-# Growth Road of Nood
+# 小白的成长之路
+
+![](/assets/first-page.jpg)
 
 
 
