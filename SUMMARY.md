@@ -5,6 +5,7 @@
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
 * [rust](rust.md)
+  * [rustup ](rust/rustup-the-rust-toolchain-installer.md)
 * [postgrSQL](postgrsql.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
