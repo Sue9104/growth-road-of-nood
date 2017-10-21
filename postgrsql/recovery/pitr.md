@@ -4,7 +4,7 @@
 
 ## Backgroud
 
-At all times, PostgreSQL maintains a write ahead log \(WAL\) in the pg\_xlog/ subdirectory of the cluster's data directory. The log records every change made to the database's data files. if the system crashes, the database can be restored to consistency by "replaying" the log entries made since the last checkpoint.
+At all times, PostgreSQL maintains a write ahead log \(WAL\) in the pg_xlog/ subdirectory of the cluster's data directory. The log records every change made to the database's data files. if the system crashes, the database can be restored to consistency by "replaying" the log entries made since the last checkpoint.
 
 ## Priority
 
@@ -17,7 +17,7 @@ At all times, PostgreSQL maintains a write ahead log \(WAL\) in the pg\_xlog/ su
 
 ### Setting Up WAL Archiving
 
-Save the following setting in **postgresql.conf**, and &lt;font color=red&gt;always to test your proposed archive\_command&lt;/font&gt;. Once pg\_xlog/ fills up, PostgreSQL will do a PANIC shutdown.
+Save the following setting in **postgresql.conf**, and <font color=red>always to test your proposed archive_command</font>. Once pg_xlog/ fills up, PostgreSQL will do a PANIC shutdown.
 
 ```
 wal_level = archive
@@ -26,8 +26,8 @@ archive_command = 'test !-f /var/lib/postgresql/data/%f && cp %p /var/lib/postgr
 ```
 
 - Other Parameters:
- + archive\_timeout : to force the server to switch a new WAL segment file at least that often
- + pg\_switch\_xlog : ensure that a just-finished transaction is archived.
+ + archive_timeout : to force the server to switch a new WAL segment file at least that often
+ + pg_switch_xlog : ensure that a just-finished transaction is archived.
 
 ### Making a Base Backup
 
@@ -50,7 +50,7 @@ select pg_stop_backup();
 
 ### Recovering Using a Continuous Archive Backup
 
-Firstly verify symbolic link in pg\_tablspc while using tablespace, then create \*\*recovery.conf\*\* in data directory
+Firstly verify symbolic link in pg_tablspc while using tablespace, then create \*\*recovery.conf\*\* in data directory
 
 ```
 recovery_command = 'cp /var/lib/postgresql/data/%f %p'

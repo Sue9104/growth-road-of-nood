@@ -1,4 +1,4 @@
-\# pg\_dump
+# pg_dump
 
 
 
@@ -6,45 +6,45 @@ The idea behind this dump method is to generate a file with SQL commands that, w
 
 
 
-\#\# Merits and Drawbacks
+## Merits and Drawbacks
 
 
 
 - Merits
 
- \* The file is smaller
+ * The file is smaller
 
 
 
 - Drawbacks
 
- \* backup to the state of pg\_dump
+ * backup to the state of pg_dump
 
- \* Only have the logical contents of database, lost all the detail history
+ * Only have the logical contents of database, lost all the detail history
 
- \* have sufficient privileges to back up potions of the database
+ * have sufficient privileges to back up potions of the database
 
 
 
-\#\# backup
+## backup
 
 
 
 ```sql
-pg\_dump dbname -n schema -t table \| gzip > outfile
+pg_dump dbname -n schema -t table | gzip > outfile
 ```
 
 
 
 
 
-\#\# restore
+## restore
 
 
 
-\`\`\`sql
+```sql
 
 psql dbname &lt; infile
 
-\`\`\`
+```
 
