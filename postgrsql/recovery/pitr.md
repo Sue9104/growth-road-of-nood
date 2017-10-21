@@ -50,7 +50,7 @@ select pg_stop_backup();
 
 ### Recovering Using a Continuous Archive Backup
 
-Firstly verify symbolic link in pg_tablspc while using tablespace, then create \*\*recovery.conf\*\* in data directory
+Firstly verify symbolic link in pg_tablspc while using tablespace, then create **recovery.conf** in data directory
 
 ```
 recovery_command = 'cp /var/lib/postgresql/data/%f %p'
