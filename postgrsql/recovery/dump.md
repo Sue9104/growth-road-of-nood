@@ -30,11 +30,11 @@ The idea behind this dump method is to generate a file with SQL commands that, w
 
 
 
-\`\`\`sql
+```sql
+pg\_dump dbname -n schema -t table \| gzip > outfile
+```
 
-pg\_dump dbname -n schema -t table \| gzip &gt; outfile
 
-\`\`\`
 
 
 
