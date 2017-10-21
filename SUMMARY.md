@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [perl](perl.md)
   * [package](perl/package.md)
-    * [dzil configure](perl/package/dzil-configure.md)
+    * [Dist::Zilla](perl/package/dzil-configure.md)
 * [rust](rust.md)
 * [postgrSQL](postgrsql.md)
   * [recovery](postgrsql/recovery.md)
