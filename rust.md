@@ -1,5 +1,7 @@
 # rust
 
+Rust 是一种 预编译静态类型语言（ahead-of-time compiled language），这意味着你可以编译程序并将其交与他人，他们不需要安装 Rust 即可运行。
+
 ## Document
 
 * rust程序设计语言
