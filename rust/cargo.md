@@ -6,6 +6,26 @@
 cargo new my_crate
 cargo new my_crate --bin
 ```
+## 工作空间
+
+工作空间 是一系列共享同样的 Cargo.lock 和输出目录的包。
+
+### 指定工作空间的依赖
+
+in **cargo.toml**
+```
+[dependencies]
+add-one = { path = "add-one" }
+```
+### 依赖外部 crate
+
+只有一个顶级的 **cargo.lock**，这确保了所有的 crate 都使用完全相同版本的依赖。
+
+### 测试
+ 
+```
+cargo test -all
+```
 
 ## build
 
