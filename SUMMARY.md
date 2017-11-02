@@ -12,6 +12,7 @@
 * [rust](rust.md)
   * [rustup ](rust/rustup-the-rust-toolchain-installer.md)
   * [cargo](rust/cargo.md)
+  * [iterator](rust/interator.md)
 * [postgrSQL](postgrsql.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
