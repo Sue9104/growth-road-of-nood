@@ -15,6 +15,7 @@
   * [iterator](rust/interator.md)
   * [pattern](rust/pattern.md)
   * [std types](rust/std-library.md)
+  * [traits](rust/traits.md)
 * [postgrSQL](postgrsql.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
