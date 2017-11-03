@@ -50,3 +50,15 @@ fn main() {
     chars.dedup();
 }
 ```
+
+## Option
+The Option<T> enum has two variants:
+- None, to indicate failure or lack of value, and
+- Some(value), a tuple struct that wraps a value with type T.
+
+## Result
+The Result<T, E> enum has two variants:
+- Ok(value) which indicates that the operation succeeded, and wraps the value returned by the operation. (value has type T)
+- Err(why), which indicates that the operation failed, and wraps why, which (hopefully) explains the cause of the failure. (why has type E)
+
+> ? is used at the end of an expression returning a Result
