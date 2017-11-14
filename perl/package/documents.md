@@ -29,6 +29,7 @@ perldoc -m IO::All
 - perl文档　```perldoc perltoc```
 - perl语法　```perldoc perlsyn```
 - perl内置函数　```perl perlfunc```
+- perl查看函数　```perl -l split```
 
 ## 在线文档
 
