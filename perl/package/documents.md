@@ -23,3 +23,15 @@ perldoc IO::All
 ```
 perldoc -m IO::All
 ```
+
+## 内置文档
+
+- perl文档　```perldoc perltoc```
+- perl语法　```perldoc perlsyn```
+- perl内置函数　```perl perlfunc```
+
+## 在线文档
+
+- https://metacpan.org/
+- http://perldoc.perl.org/
+- http://search.cpan.org/
