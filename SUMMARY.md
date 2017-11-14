@@ -9,6 +9,7 @@
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
+    * [documents](perl/package/documents.md)
 * [rust](rust.md)
   * [rustup ](rust/rustup-the-rust-toolchain-installer.md)
   * [cargo](rust/cargo.md)
@@ -27,4 +28,6 @@
   * [pyenv](python/pyenv.md)
   * [argparse](python/argparse.md)
   * [decorator @](python/decorator.md)
+* [statistics](statistics.md)
+  * [ChiTest](statistics/chitest.md)
 
