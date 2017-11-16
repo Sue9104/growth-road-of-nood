@@ -1,5 +1,8 @@
 # trait
-trait 类似于其他语言中的常被称为 接口（interfaces）的功能，是一种将方法签名组合起来的方法。```impl trait for structor```
+
+> 可以为内部struct impl 外部的trait，但无法为外部的struct impl内部的trait
+
+trait 类似于其他语言中的常被称为 接口（interfaces）的功能，是一种将方法签名组合起来的方法。`impl trait for structor`
 
 ```rust
 pub trait Summarizable {
@@ -20,6 +23,7 @@ impl Summarizable for NewsArticle {
 ```
 
 ## trait bounds
+
 将泛型被限制为那些实现了特定 trait 的类型
 
 ```rust
@@ -36,7 +40,8 @@ fn some_function<T, U>(t: T, u: U) -> i32
 ```
 
 ## method
-方法被调用的结构体的实例,第一个参数总是self,```impl structor```, 调用structor.method()
+
+方法被调用的结构体的实例,第一个参数总是self,`impl structor`, 调用structor.method\(\)
 
 ```rust
 struct Rectangle {
@@ -48,12 +53,11 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.length * self.width
     }
-
 ```
 
 ### associated functions
 
-impl块中定义不 以 self 作为参数的函数，调用structor::function()
+impl块中定义不 以 self 作为参数的函数，调用structor::function\(\)
 
 ```rust
 impl Rectangle {
@@ -62,3 +66,6 @@ impl Rectangle {
     }
 }
 ```
+
+
+
