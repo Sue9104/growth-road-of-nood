@@ -77,3 +77,13 @@ The Result<T, E> enum has two variants:
 - Err(why), which indicates that the operation failed, and wraps why, which (hopefully) explains the cause of the failure. (why has type E)
 
 > ? is used at the end of an expression returning a Result
+
+## Caveat
+
+| type  | unit  | 
+|:--:|:--:|
+| vector  | vec[0]  |
+| turple  | turple.0  | 
+| hashmap  | hashmap.get("a")  |
+|struct| struct.a |
+|enum| enum::a | 
