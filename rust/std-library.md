@@ -1,5 +1,20 @@
 # Std Library types
 
+## struct
+
+```rust
+struct Rectangle {
+    length: i32,
+    heigth: i32,
+}
+```
+
+## Turple
+
+```rust
+let pair = (1,2);
+```
+
 ## Box
 A box is a smart pointer to a heap allocated value of type T. Boxed values can be dereferenced using the * operator.
 
