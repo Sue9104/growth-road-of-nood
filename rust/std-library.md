@@ -80,10 +80,10 @@ The Result<T, E> enum has two variants:
 
 ## Caveat
 
-| type  | unit  | 
-|:--:|:--:|
-| vector  | vec[0]  |
-| turple  | turple.0  | 
-| hashmap  | hashmap.get("a")  |
-|struct| struct.a |
-|enum| enum::a | 
+| type  | unit  | creat | remove |
+|:--:|:--:|:--:|:--:|
+| vector  | vec[0]  | vec![1,2];vec.push(3)|vec.pop(); |
+| turple  | turple.0  | | |
+| hashmap  | hashmap.get("a")  | hashmap.insert(key,value) ; hashmap.entry(key).or_insert(value);|hashmap.remove(key); hashmap.clear()|
+|struct| struct.a | ||
+|enum| enum::a | ||
