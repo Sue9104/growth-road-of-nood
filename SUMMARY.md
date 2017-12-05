@@ -20,6 +20,7 @@
   * [traits](rust/traits.md)
   * [benchmark](rust/benchmark.md)
   * [built-in](rust/builtintraits.md)
+  * [hash](rust/hash.md)
 * [postgrSQL](postgrsql.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
