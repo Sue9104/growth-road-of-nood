@@ -8,6 +8,7 @@
   * [Gitbook](ubuntu-setup/gitbook.md)
   * [Sort](ubuntu-setup/sort.md)
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
+  * [vim-plugin](ubuntu-setup/vimkuai-jie-jian.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
