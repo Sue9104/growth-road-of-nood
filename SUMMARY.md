@@ -7,6 +7,7 @@
   * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
   * [Gitbook](ubuntu-setup/gitbook.md)
   * [Sort](ubuntu-setup/sort.md)
+  * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
