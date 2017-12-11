@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Linux](ubuntu-setup.md)
-  * [YADR](ubuntu-setup/yadr.md)
   * [terminator](ubuntu-setup/terminator.md)
+  * [YADR](ubuntu-setup/yadr.md)
   * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
   * [Gitbook](ubuntu-setup/gitbook.md)
   * [Sort](ubuntu-setup/sort.md)
