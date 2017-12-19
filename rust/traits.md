@@ -38,7 +38,34 @@ fn some_function<T, U>(t: T, u: U) -> i32
      ...
  }
 ```
+## impl traits for extern structs
+1. create your own struct
+```rust
+trait LinkMethod {
+    fn find_index(&self,value: i64) -> Option<usize> ;
+}
+impl LinkMethod for LinkedList<i64> {
+    fn find_index(&self,value: i64) -> Option<usize> {
+        self.iter().position(|&x| x==value)
+    }   
+}
+```
+2. copy trait
+```
+pub trait RangeExt<T> {
+    fn before(&self) -> RangeTo<T>;
+    fn after(&self) -> RangeFrom<T>;
+}
+impl<T: Copy> RangeExt<T> for Range<T> {
+    fn before(&self) -> RangeTo<T> {
+        ..self.start
+    }
 
+    fn after(&self) -> RangeFrom<T> {
+        self.end..
+    }
+}
+```
 ## method
 
 方法被调用的结构体的实例,第一个参数总是self,`impl structor`, 调用structor.method\(\)
@@ -66,6 +93,7 @@ impl Rectangle {
     }
 }
 ```
+
 
 
 
