@@ -9,6 +9,7 @@
   * [Sort](ubuntu-setup/sort.md)
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
   * [vim-plugin](ubuntu-setup/vimkuai-jie-jian.md)
+  * [Git](ubuntu-setup/git.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
