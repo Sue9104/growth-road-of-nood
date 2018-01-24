@@ -38,4 +38,5 @@
 * [statistics](statistics.md)
   * [ChiTest](statistics/chitest.md)
 * [docker](docker.md)
+* [R](r.md)
 
