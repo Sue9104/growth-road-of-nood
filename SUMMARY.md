@@ -40,4 +40,5 @@
   * [ChiTest](statistics/chitest.md)
 * [docker](docker.md)
 * [R](r.md)
+* [data-type](data-type.md)
 
