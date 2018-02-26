@@ -63,6 +63,28 @@ $$
 LANGUAGE plpgsql;
 ```
 
+```sql
+CREATE TRIGGER insert_measurement_trigger
+    BEFORE INSERT ON measurement
+    FOR EACH ROW EXECUTE PROCEDURE measurement_insert_trigger();
+```
 6. 限制性排除 constraint exclusion
+```sql
+SET constraint_exclusion = on;
+SELECT count(*) FROM measurement WHERE logdate >= DATE '2008-01-01';
+```
+> 限制性排除只适用于where语句中为常量，否则不会进行优化，如CURRENT_TIMESTAMP
 
-## 注意事项
+## 替换方案
+- rules的使用
+```sql
+    CREATE RULE measurement_insert_y2006m02 AS
+ON INSERT TO measurement WHERE
+    ( logdate >= DATE '2006-02-01' AND logdate < DATE '2006-03-01' )
+DO INSTEAD
+    INSERT INTO measurement_y2006m02 VALUES (NEW.*);
+...
+```
+> rules只适用于INSERT，忽略COPY
+
+
