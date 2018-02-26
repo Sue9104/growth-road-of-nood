@@ -1,7 +1,12 @@
-# 数据库搭建教程
+# 数据库以及api搭建教程
+- 使用docker搭建pg数据库
+- sqitch进行数据库管理
+
 ## 单个数据库
 
-## 使用docker-compose搭建多个端口数据库
+## 多个数据库
+> 使用docker-compose进行数据库搭建、sqitch管理、提供API端口，形成一个完成的流程
+
 ### 准备配置文件
 - .env文件
 ```sh
@@ -130,6 +135,7 @@ fi
 docker-compose up -d
 ```
 ### 用sqitch添加schema、table
+
 
 
 
