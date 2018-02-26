@@ -25,6 +25,9 @@
   * [built-in](rust/builtintraits.md)
   * [hash](rust/hash.md)
 * [postgrSQL](postgrsql.md)
+  * [tutorial](postgrsql/tutorial.md)
+    * table-partitioning
+    * [db-sqitch-api](postgrsql/tutorial/db-sqitch-api.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
     * [dump](postgrsql/recovery/dfds.md)
@@ -32,7 +35,6 @@
     * [streaming replication](postgrsql/recovery/streaming-replication.md)
   * [postgrest](postgrsql/postgrest.md)
     * [Limits and Pagination](postgrsql/postgrest/limits-and-pagination.md)
-* [tutorial](postgrsql/tutorial.md)
 * [python](python.md)
   * [pyenv](python/pyenv.md)
   * [argparse](python/argparse.md)
