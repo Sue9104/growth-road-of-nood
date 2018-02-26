@@ -32,6 +32,7 @@
     * [streaming replication](postgrsql/recovery/streaming-replication.md)
   * [postgrest](postgrsql/postgrest.md)
     * [Limits and Pagination](postgrsql/postgrest/limits-and-pagination.md)
+* [tutorial](postgrsql/tutorial.md)
 * [python](python.md)
   * [pyenv](python/pyenv.md)
   * [argparse](python/argparse.md)
