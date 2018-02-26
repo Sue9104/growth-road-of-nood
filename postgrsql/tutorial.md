@@ -1,8 +1,8 @@
 # 数据库搭建教程
 ## 单个数据库
 
-## 多个端口数据库
-
+## 使用docker-compose搭建多个端口数据库
+### 准备配置文件
 - .env文件
 ```sh
 # Docker specific configs
@@ -73,5 +73,63 @@ services:
       - POSTGRES_PASSWORD=${DB_PASS}
       - POSTGRES_DB=${DB_NAME}
 ```
+
+- sqitch/init.sh
+```sh
+#!/usr/bin/env sh
+test_uri() {
+  echo select 1 | psql $DB_URI > /dev/null
+}
+while ! test_uri;
+do
+  sleep 2
+done
+export ANSI_COLORS_DISABLED=1
+# init or not
+if [ ! -f sqitch.plan ]; then
+  echo %project=$PROJECT > sqitch.plan
+  chmod 766 sqitch.plan
+fi
+# config
+cat > sqitch.conf << EOL 
+[target "production"]
+  uri = $DB_URI
+[core]
+  engine = pg
+[rebase]
+  verify = true
+[deploy]
+  verify = true
+[engine "pg"]
+  target = production
+[user]
+  name = Su Min
+  email = sumin@cheerlandgroup.com
+EOL
+if [ "$1" = 'sh' ]; then
+  echo "Run bash command"
+  $@  
+elif [ "$1" = "load" ]; then
+  echo "Load data from /data"
+  ls -al /data
+  if [ "$2" = "" ]; then
+    echo "You must select which data to load!"
+    echo ""
+    echo "Here's the support data list:"
+    ls load | grep '.sql' | sed 's/.sql//' | xargs -i echo {}
+    echo ""
+  else
+    cat load/${2}.sql | psql $DB_URI
+  fi  
+else
+  sqitch $@
+fi
+```
+### 运行命令
+```
+docker-compose up -d
+```
+### 用sqitch添加schema、table
+
 
 
