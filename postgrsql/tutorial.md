@@ -135,6 +135,12 @@ fi
 docker-compose up -d
 ```
 ### 用sqitch添加schema、table
+```
+sqitch add schema -n 'add schema'
+sqitch verify
+sqitch deploy
+sqitch revert
+```
 
 
 
