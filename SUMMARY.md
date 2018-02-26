@@ -26,7 +26,7 @@
   * [hash](rust/hash.md)
 * [postgrSQL](postgrsql.md)
   * [tutorial](postgrsql/tutorial.md)
-    * table-partitioning
+    * [table-partitioning](postgrsql/tutorial/table-partitioning.md)
     * [db-sqitch-api](postgrsql/tutorial/db-sqitch-api.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
