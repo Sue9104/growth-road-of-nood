@@ -24,7 +24,7 @@
  - Deployment tagging  
  
 ## 使用
-## 查看
+### 查看
 ```
 pg_lscluster
 sudo serive postgresql start
