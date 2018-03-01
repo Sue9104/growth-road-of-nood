@@ -1,6 +1,20 @@
 # Sqitch使用
+## 特点
+- Migration
+ - Incomplete mini-language
+ - No logical replication integration
+ - Numbered scripts hard to track
+ - No VCS awareness
 
-## sqitch
+- 优点
+ - No opinions
+ - Native scripting (psql, sqlite3, SQL*Plus)
+ - Cross-project dependency resolution
+ - Distribution bundling
+ - Integrated verification testing
+ - No numbering
+ - Reliable sequential deployment ordering
+## 使用
 ### 全局设置
 ```
 sqitch config --user user XXX
