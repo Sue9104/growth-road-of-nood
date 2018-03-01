@@ -6,7 +6,7 @@
  - Numbered scripts hard to track
  - No VCS awareness
 
-- 优点
+- why sqitch
  - No opinions
  - Native scripting (psql, sqlite3, SQL*Plus)
  - Cross-project dependency resolution
@@ -14,6 +14,15 @@
  - Integrated verification testing
  - No numbering
  - Reliable sequential deployment ordering
+
+- 特点
+ - Reduced duplication
+ - Built-in configuration
+ - Iterative development
+ - Targeted deployment
+ - Git-style interface
+ - Deployment tagging  
+ 
 ## 使用
 ### 全局设置
 ```
