@@ -15,7 +15,7 @@
  - No numbering
  - Reliable sequential deployment ordering
 
-- 特点
+- Feature
  - Reduced duplication
  - Built-in configuration
  - Iterative development
