@@ -28,6 +28,7 @@
   * [tutorial](postgrsql/tutorial.md)
     * [table-partitioning](postgrsql/tutorial/table-partitioning.md)
     * [db-sqitch-api](postgrsql/tutorial/db-sqitch-api.md)
+    * [sqitch](postgrsql/tutorial/sqitch.md)
   * [recovery](postgrsql/recovery.md)
     * [file system level backup](postgrsql/recovery/df.md)
     * [dump](postgrsql/recovery/dfds.md)
