@@ -27,7 +27,7 @@
 ## 查看
 ```
 ps_lscluster
-sudo serive postgres start
+sudo serive postgresql start
 ```
 ### 全局设置
 ```
