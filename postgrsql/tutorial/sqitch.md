@@ -24,6 +24,11 @@
  - Deployment tagging  
  
 ## 使用
+## 查看
+```
+ps_lscluster
+sudo serive postgres start
+```
 ### 全局设置
 ```
 sqitch config --user user XXX
@@ -37,3 +42,16 @@ sqitch target add flipr_test db:postgres://user:password@localhost:5433/flipr_te
 sqitch config core.pg.target flipr_test
 ```
 
+### 常见命令
+```
+rebase
+rework
+add -r -n 
+revert --to 
+log
+show change @HEAD
+status
+bundle
+tag
+config
+```
