@@ -44,14 +44,14 @@ sqitch config core.pg.target flipr_test
 
 ### 常见命令
 ```
-rebase
-rework
-add -r -n 
-revert --to 
-log
-show change @HEAD
-status
-bundle
-tag
-config
+sqitch rebase
+sqitch rework XXX -r requires -n 'notes' (sqitch tag之后)
+sqitch add -r requires -n 'notes'
+sqitch revert --to 
+sqitch log
+sqitch show change/deploy @HEAD
+sqitch status
+sqitch bundle --dest-dir v0.1
+sqitch tag / git pull --tags
+sqitch config --user user.name XXX
 ```
