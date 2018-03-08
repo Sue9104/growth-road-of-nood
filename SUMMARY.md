@@ -45,4 +45,6 @@
 * [docker](docker.md)
 * [R](r.md)
 * [data-type](data-type.md)
+* [questions](questions.md)
+* [flow-chart](flow-chart.md)
 
