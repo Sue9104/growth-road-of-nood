@@ -24,6 +24,7 @@
   * [benchmark](rust/benchmark.md)
   * [built-in](rust/builtintraits.md)
   * [hash](rust/hash.md)
+  * [serde](rust/serde.md)
 * [postgrSQL](postgrsql.md)
   * [tutorial](postgrsql/tutorial.md)
     * [table-partitioning](postgrsql/tutorial/table-partitioning.md)
