@@ -43,9 +43,11 @@
   * [decorator @](python/decorator.md)
 * [statistics](statistics.md)
   * [ChiTest](statistics/chitest.md)
+* [Introduction\_to\_Algorithms](introductionto-algorithms.md)
+  * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
 * [docker](docker.md)
 * [R](r.md)
 * [data-type](data-type.md)
 * [questions](questions.md)
-* [flow-chart](flow-chart.md)
+* [Introduction\_to\_Algorithms](introductionto-algorithms.md)
 
