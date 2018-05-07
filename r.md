@@ -26,8 +26,7 @@ local({r <- getOption("repos")
 
 # 启动函数
 .First <- function(){
- library(lattice)
- library(Hmisc)
+ library(getopt)
  source("http://bioconductor.org/biocLite.R")
  cat("\nWelcome at", date(), "\n")
 }
