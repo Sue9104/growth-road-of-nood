@@ -5,11 +5,16 @@
 
  $$Precision = TP / (TP + FP)$$
  
- 
 - 召回率  （在所有正类别样本中，被正确识别为正类别的比例）
 
  $$ ReCall = TP / (TP+FN) $$
- 
+
+- 灵敏度（sensitive）
+ $$ sensitive = TP/P $$
+
+- 特效度（sensitive）
+ $$ specificity = TN/N $$
+
 - ROC曲线 （以伪阳率FPR为X,真阳率TPR为Y）
  - 真实为阳性的样本中，被**正确的**判定为阳性的比例
  $$FPR = TP / (TP + FN)$$
