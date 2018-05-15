@@ -45,6 +45,7 @@
   * [ChiTest](statistics/chitest.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
   * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
+  * 聚类算法
 * [docker](docker.md)
 * [R](r.md)
 * [data-type](data-type.md)
