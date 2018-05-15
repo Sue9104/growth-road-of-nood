@@ -9,10 +9,10 @@
 
  $$ ReCall = TP / (TP+FN) $$
 
-- 灵敏度（sensitive）
+- 灵敏度（sensitive） 所有正例中被分对的比例
  $$ sensitive = TP/P $$
 
-- 特效度（sensitive）
+- 特效度（sensitive） 所有负例中被分对的比例
  $$ specificity = TN/N $$
 
 - ROC曲线 （以伪阳率FPR为X,真阳率TPR为Y）
