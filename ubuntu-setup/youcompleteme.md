@@ -35,5 +35,5 @@ sudo apt-get install build-essential cmake && sudo apt-get install python-dev py
 - install 
 
 ```
-cd ~/.vim/bundle/YouCompleteMe && python install.py --js-completer --rust-completer 
+cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive && python install.py --js-completer --rust-completer 
 ```
