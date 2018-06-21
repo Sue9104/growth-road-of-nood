@@ -3,12 +3,10 @@
 > Document: [Rustup readme](https://github.com/rust-lang-nursery/rustup.rs/blob/master/README.md)
 
 ## Configure environments
-Save this file to **~/.zsh.after/**
+Save this file to **~/.zsh.after/rust.zsh**
 ```
-export RUSTUP_HOME=$HOME/.rustup​
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static​
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup​
-[ -e "$HOME/.cargo/env" ] && source $HOME/.cargo/env
 ```
 
 ## Configure rustup  

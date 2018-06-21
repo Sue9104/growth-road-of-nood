@@ -7,7 +7,7 @@
 |RnBeads|R|2014|Nature Methods|210|https://www.nature.com/articles/nmeth.3115|
 |BiSeq|R|2013|Bioinformatics|115|https://academic.oup.com/bioinformatics/article/29/13/1647/200453|
 |MOABS|perl+R|2014|Genome Biology|99|https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-2-r38|
-|DMRcate||2015|Epigenetics & Chromatin|97|https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/1756-8935-8-6|
+|DMRcate|R|2015|Epigenetics & Chromatin|97|https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/1756-8935-8-6|
 |MethylSig|R|2014|Bioinformatics|89|https://academic.oup.com/bioinformatics/article/30/17/2414/2748239|
 |QDMR||2011|Nucleic Acids Research|84|https://academic.oup.com/nar/article/39/9/e58/1254752|
 |comb-p|python|2012|Bioinformatics|78|https://academic.oup.com/bioinformatics/article/28/22/2986/240603|
