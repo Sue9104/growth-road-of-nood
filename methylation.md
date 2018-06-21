@@ -5,7 +5,7 @@
 |Bump Hunting|R|2012|International Journal of Epidemiology |285|https://academic.oup.com/ije/article/41/1/200/650955|
 |BSmooth|R|2012|Genome Biology|285|https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-10-r83|
 |RnBeads|R|2014|Nature Methods|210|https://www.nature.com/articles/nmeth.3115|
-|BiSeq||2013|Bioinformatics|115|https://academic.oup.com/bioinformatics/article/29/13/1647/200453|
+|BiSeq|R|2013|Bioinformatics|115|https://academic.oup.com/bioinformatics/article/29/13/1647/200453|
 |MOABS|perl+R|2014|Genome Biology|99|https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-2-r38|
 |DMRcate||2015|Epigenetics & Chromatin|97|https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/1756-8935-8-6|
 |MethylSig|R|2014|Bioinformatics|89|https://academic.oup.com/bioinformatics/article/30/17/2414/2748239|
