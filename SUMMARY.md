@@ -52,5 +52,4 @@
 * [data-type](data-type.md)
 * [questions](questions.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
-* [methylation](methylation.md)
 
