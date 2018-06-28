@@ -51,9 +51,6 @@ build()
 #打包测试
 check()
 # R CMD check --as-cran ~/package-name.tar.gz
-
-
-
 ```
 
 
