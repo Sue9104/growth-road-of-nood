@@ -37,5 +37,9 @@
 - git merge --squash 合并同一分支的所有提交
 
 ## changelog
+```
+cargo install clog-cli
+```
+
 
 
