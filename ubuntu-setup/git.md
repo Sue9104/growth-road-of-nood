@@ -41,5 +41,10 @@
 cargo install clog-cli
 ```
 
+将 ``` .clog.toml``` 放在流程目录下
+```toml
+
+```
+
 
 
