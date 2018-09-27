@@ -14,8 +14,8 @@
 2. QQ图
 3. 经验
 
- 60%: [mean-1d,mean+1d]
- 90%: [mean-3d,mean+3d]
+ 68.3%: [mean-1d,mean+1d]
+ 99.7%: [mean-3d,mean+3d]
  
 4. 正态检验
 
