@@ -36,4 +36,7 @@
 > 若数据不是正态分布，可考虑Box-Cox变换， Johnson变换
 
 ## 同质检验
+- Bartlett’s test
+- Levene’s test,数据偏离正态性时比Bartlett检验更稳定（鲁棒性更好）
+- Fligner-Killeen test,这是一个非参数检验，数据偏离正态是非常稳定适用。
 
