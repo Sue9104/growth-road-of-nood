@@ -44,4 +44,5 @@
 
 scipy.stats，参考https://segmentfault.com/a/1190000007626742
 
+python数据分析：https://pythonfordatascience.org/
 
