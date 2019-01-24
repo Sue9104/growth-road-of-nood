@@ -44,7 +44,7 @@
 * [statistics](statistics.md)
   * [ChiTest](statistics/chitest.md)
   * [testing](statistics/testing.md)
-  * [encryption](statistics/encryption.md)
+  * [data distribution](statistics/data-distribution.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
   * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
   * 聚类算法
@@ -54,4 +54,7 @@
 * [data-type](data-type.md)
 * [questions](questions.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
+* [machine learning](machine-learning.md)
+  * [ensemble learning](statistics/ensemble-learning.md)
+  * [encryption](statistics/encryption.md)
 
