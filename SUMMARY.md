@@ -10,6 +10,7 @@
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
   * [vim-plugin](ubuntu-setup/vimkuai-jie-jian.md)
   * [Git](ubuntu-setup/git.md)
+  * [install\_R](r.md)
 * [perl](perl.md)
   * [package](perl/package.md)
     * [Dist::Zilla](perl/package/dzil-configure.md)
@@ -49,12 +50,12 @@
   * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
   * 聚类算法
   * [分类算法](introductionto-algorithms/fen-lei-suan-fa.md)
-* [docker](docker.md)
+* [Introduction\_to\_Algorithms](introductionto-algorithms.md)
 * [R](r.md)
 * [data-type](data-type.md)
-* [questions](questions.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
 * [machine learning](machine-learning.md)
   * [ensemble learning](statistics/ensemble-learning.md)
   * [encryption](statistics/encryption.md)
+* [OO](oo.md)
 

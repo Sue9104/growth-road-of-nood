@@ -1,5 +1,7 @@
 # R
+
 ## install
+
 ```
 tar -zxvf R-3.4.3.tar.gz 
 cd R-3.4.3
@@ -7,6 +9,7 @@ cd R-3.4.3
 ```
 
 ## mirror
+
 加入~/.Rprofile
 
 ```
@@ -34,6 +37,7 @@ local({r <- getOption("repos")
 ```
 
 ## R 打包
+
 ```
 #创建包的骨架
 library(devtools)
