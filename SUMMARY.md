@@ -5,8 +5,8 @@
   * [terminator](ubuntu-setup/terminator.md)
   * [YADR](ubuntu-setup/yadr.md)
   * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
-  * [Gitbook](ubuntu-setup/gitbook.md)
   * [Sort](ubuntu-setup/sort.md)
+  * [Gitbook](ubuntu-setup/gitbook.md)
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
   * [vim-plugin](ubuntu-setup/vimkuai-jie-jian.md)
   * [Git](ubuntu-setup/git.md)
@@ -57,6 +57,6 @@
 * [machine learning](machine-learning.md)
   * [ensemble learning](statistics/ensemble-learning.md)
   * [encryption](statistics/encryption.md)
-* [OO](oo.md)
 * [frameworks](frameworks.md)
+* [OO](oo.md)
 
