@@ -1,13 +1,13 @@
 # Object-oriented Design\(OO\)
 
+1. https://www.geeksforgeeks.org/strategy-pattern-set-1/
+
 ## 特征
 
 1. 抽象
 2. 封装
 3. 继承
 4. 多态
-
-
 
 ## 目的
 
@@ -20,7 +20,7 @@
 1. 最小职责 SRP \(Single Responsibility Principle\): 只有一个引起的变化
 2. 里氏替换 LSP \(Liskov-Substituion Principle\):子类替换基类
 3. 依赖倒置 DIP \(Dependency-Inversion Principle\): 依赖于抽象 
-4. 最小接口 \(\):
+4. 最小接口 LoD \(Least Knowledge Principle\):
 5. 迪米特 \(\):
 6. 组合/聚合 \(\):
 7. 开闭原则 OCP \(Open-Close Principle\): 对扩展开放，对修改封闭
