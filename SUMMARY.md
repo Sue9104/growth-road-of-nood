@@ -59,4 +59,5 @@
   * [encryption](statistics/encryption.md)
 * [frameworks](frameworks.md)
 * [OO](oo.md)
+* [ten simple rules](ten-simple-rules.md)
 
