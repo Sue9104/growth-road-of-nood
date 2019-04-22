@@ -1,5 +1,9 @@
 # JWT vs OAuth2.0
 
+> [https://www.cnblogs.com/adamans/articles/9149833.html](https://www.cnblogs.com/adamans/articles/9149833.html)
+
+
+
 |  | 定义 | 应用场景 | 优点 | 缺点 |
 | :--- | :--- | :--- | :--- | :--- |
 | JWT（JSON Web Token） | 认证协议，用户提供用户名和密码给认证服务器，认证成功后返回Token | 无状态的分布式API | 快速开发，无需Cookie,不依赖社交网络 | Token有长度限制，不能撤销，需要失效时间限制 |
