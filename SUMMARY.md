@@ -14,9 +14,9 @@
   * [install\_R](r.md)
   * [data-type in different languages](data-type.md)
 * [statistics](statistics.md)
-  * [ChiTest](statistics/chitest.md)
-  * [testing](statistics/testing.md)
   * [data distribution](statistics/data-distribution.md)
+  * [testing](statistics/testing.md)
+  * [survial analysis](statistics/survial-analysis.md)
 * [Introduction\_to\_Algorithms](introductionto-algorithms.md)
   * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
   * 聚类算法
