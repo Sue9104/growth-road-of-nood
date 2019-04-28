@@ -25,7 +25,6 @@
   * [ensemble learning](statistics/ensemble-learning.md)
   * [encryption](statistics/encryption.md)
 * [Programming](programming.md)
-  * [Object\_Oriented\_Design](oo.md)
   * [perl](perl.md)
     * [package](perl/package.md)
       * [Dist::Zilla](perl/package/dzil-configure.md)
