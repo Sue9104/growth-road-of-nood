@@ -30,15 +30,16 @@
 - 用况图
 
 ![](/assets/usecase.png)
-2. 类图
+
+- 类图
 
 ![](/assets/类图)
 
+- 顺序图
 
+![](/assets/Dequence.jpg)
 
-3. 顺序图![](/assets/Dequence.jpg)
-
-4. 协作图
+- 协作图
 
 ![](/assets/communication.jpeg)
 
