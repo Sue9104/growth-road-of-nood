@@ -59,8 +59,6 @@
 
 ![](/assets/deployment.png)
 
-- 包图
-
 
 ## Frameworks
 
