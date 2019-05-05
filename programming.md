@@ -27,7 +27,9 @@
 | 构件图 |  |  |  |
 | 部署图 |  |  |  |
 
-1. 用况图![](/assets/usecase.png)
+- 用况图
+
+![](/assets/usecase.png)
 2. 类图
 
 ![](/assets/类图)
