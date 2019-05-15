@@ -1,23 +1,48 @@
-#vim
-##目录与文件
-- ```ctrl+\``` 显示当前目录结构　o x 
-- ```,t``` 文件查找
-- ```,b``` 最近编辑的文件查找
+# vim
 
-##折叠
-- zc 折叠建立
-- zC 所在范围内所有嵌套进行折叠
-- zo 打开折叠 
-- zO 对所在范围内所有嵌套的折叠点展开
-- zf　创建折叠　10zf+　10zf-　zf56G
+## 目录与文件
 
+* `ctrl+\` 显示当前目录结构 u p o t i s 
+* `,t` 文件查找
+* `,b` 最近编辑的文件查找
+
+## 折叠
+
+* zc 折叠建立
+* zC 所在范围内所有嵌套进行折叠
+* zo 打开折叠 
+* zO 对所在范围内所有嵌套的折叠点展开
+* zf　创建折叠　10zf+　10zf-　zf56G
 
 ## showMarks
-- 建立marker: m[a-zA-Z]
-- 跳转：,a
+
+* 建立marker: m\[a-zA-Z\]
+* 跳转：,a
 
 ## 跳转
-- Ctrl-o : Old cursor position
-- Ctrl-i : opposite of Ctrl-O
-- Cmd-j and Cmd-k to move up and down roughly by functions (Alt in Linux)
- 
+
+| ctrl + o /  ctrl + i | jump between old and current cursor postion |
+| :--- | :--- |
+| ctrl + j / ctrl + k | move between functions |
+| alt + number | terminal tab |
+| ctrl + pageup / pagedown | vim tab |
+
+
+
+## 性能
+
+```sh
+# 1
+vim --startuptime timing.out
+
+# 2
+:profile start profile.log
+:profile func *
+:profile file *
+" At this point do slow actions
+:profile pause
+:noautocmd qall!
+```
+
+
+
