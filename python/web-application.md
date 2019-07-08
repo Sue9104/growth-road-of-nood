@@ -8,7 +8,7 @@
 
 - uwsgi
 
-```sh
+```
 uwsgi --http :8000 --module mysite.wsgi
 ```
 
