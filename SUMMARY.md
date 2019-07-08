@@ -2,14 +2,13 @@
 
 * [Introduction](README.md)
 * [Linux](ubuntu-setup.md)
-  * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
-  * [Git](ubuntu-setup/git.md)
-  * [R](r.md)
 
 ## Linux
 
 * [YADR](ubuntu-setup/yadr.md)
 * [vim](ubuntu-setup/vimkuai-jie-jian.md)
+* [Git](ubuntu-setup/git.md)
+* [R](r.md)
 * [Settings](ubuntu-setup/settings.md)
 * [Knowledge](ubuntu-setup/knowledge.md)
 
