@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Linux](ubuntu-setup.md)
 
 ## Linux
 
