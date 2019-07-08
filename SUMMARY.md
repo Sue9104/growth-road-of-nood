@@ -14,6 +14,7 @@
 * [YADR](ubuntu-setup/yadr.md)
 * [vim](ubuntu-setup/vimkuai-jie-jian.md)
 * Settings
+* [Knowledge](ubuntu-setup/knowledge.md)
 
 ## Programming
 
