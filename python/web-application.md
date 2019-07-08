@@ -38,3 +38,21 @@ server {
     }
 }
 ```
+
+  - collect statics and media
+  
+  ```
+  python manage.py collectstatic
+  ```
+  
+  - link to /etc/nginx
+  
+  ```
+  sudo ln -s ~/path/to/your/mysite/mysite_nginx.conf /etc/nginx/sites-enabled/
+  ```
+  
+  - start nginx
+  
+  ```
+  sudo /etc/init.d/nginx restart
+  ```
