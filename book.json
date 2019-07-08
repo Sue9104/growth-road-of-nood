@@ -1,3 +1,21 @@
 {
-    "plugins": ["katex"]
+  "plugins": [
+    "fancybox", "katex", "prism", "prism-themes", "alerts", "terminal",
+    "splitter", "simple-page-toc"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": true,
+      "google": true,
+      "twitter": true,
+      "weibo": true,
+      "all": ["facebook", "google", "twitter", "weibo"]
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-darcula.css"
+      ]
+    }
+
+  }
 }
