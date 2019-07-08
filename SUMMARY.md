@@ -5,7 +5,7 @@
 ## Linux
 
 * [YADR](ubuntu-setup/yadr.md)
-* [vim](ubuntu-setup/vimkuai-jie-jian.md)
+* [Vim](ubuntu-setup/vimkuai-jie-jian.md)
 * [Git](ubuntu-setup/git.md)
 * [R](r.md)
 * [Settings](ubuntu-setup/settings.md)
