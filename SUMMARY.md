@@ -3,26 +3,17 @@
 * [Introduction](README.md)
 * [Linux](ubuntu-setup.md)
   * [terminator](ubuntu-setup/terminator.md)
-  * [YADR](ubuntu-setup/yadr.md)
   * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
-  * [Sort](ubuntu-setup/sort.md)
   * [Gitbook](ubuntu-setup/gitbook.md)
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
-  * [vim-plugin](ubuntu-setup/vimkuai-jie-jian.md)
   * [Git](ubuntu-setup/git.md)
-  * [translator](translator.md)
-  * [install\_R](r.md)
-  * [data-type in different languages](data-type.md)
-* [statistics](statistics.md)
-  * [data distribution](statistics/data-distribution.md)
-  * [testing](statistics/testing.md)
-  * [survial analysis](statistics/survial-analysis.md)
-* [Introduction\_to\_Algorithms](introductionto-algorithms.md)
-  * [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
-  * [聚类算法](introductionto-algorithms/ju-lei-suan-fa.md)
-  * [分类算法](introductionto-algorithms/fen-lei-suan-fa.md)
-  * [encryption](statistics/encryption.md)
-  * [ensemble learning](statistics/ensemble-learning.md)
+  * [R](r.md)
+
+## Linux
+
+* [YADR](ubuntu-setup/yadr.md)
+* [vim](ubuntu-setup/vimkuai-jie-jian.md)
+* Settings
 
 ## Programming
 
@@ -61,4 +52,16 @@
   * [serde](rust/serde.md)
 
 ## Algorithms
+
+* [算法在计算中的应用](introductionto-algorithms/suan-fa-zai-ji-suan-zhong-de-ying-yong.md)
+* [聚类算法](introductionto-algorithms/ju-lei-suan-fa.md)
+* [分类算法](introductionto-algorithms/fen-lei-suan-fa.md)
+* [encryption](statistics/encryption.md)
+* [ensemble learning](statistics/ensemble-learning.md)
+
+## Statistics
+
+* [distribution](statistics/data-distribution.md)
+* [testing](statistics/testing.md)
+* [survial analysis](statistics/survial-analysis.md)
 
