@@ -2,9 +2,6 @@
 
 * [Introduction](README.md)
 * [Linux](ubuntu-setup.md)
-  * [terminator](ubuntu-setup/terminator.md)
-  * [gcc & make & cmake & qmake](ubuntu-setup/gcc-and-make-and-cmake-and-qmake.md)
-  * [Gitbook](ubuntu-setup/gitbook.md)
   * [YouCompleteMe](ubuntu-setup/youcompleteme.md)
   * [Git](ubuntu-setup/git.md)
   * [R](r.md)
@@ -13,7 +10,7 @@
 
 * [YADR](ubuntu-setup/yadr.md)
 * [vim](ubuntu-setup/vimkuai-jie-jian.md)
-* Settings
+* [Settings](ubuntu-setup/settings.md)
 * [Knowledge](ubuntu-setup/knowledge.md)
 
 ## Programming
