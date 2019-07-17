@@ -14,7 +14,6 @@ sphinx-build source build
    - note
    - tip
    - warning
-   - error
 
 
 
