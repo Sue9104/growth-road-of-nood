@@ -1,7 +1,7 @@
 {
   "plugins": [
-    "fancybox", "katex", "prism", "prism-themes", "alerts", "terminal",
-    "splitter", "simple-page-toc"
+    "fancybox", "-highlight", "prism", "prism-themes", "callouts", "alerts", "terminal",
+    "emphasize", "splitter", "simple-page-toc", "katex"
   ],
   "pluginsConfig": {
     "sharing": {
@@ -15,7 +15,9 @@
       "css": [
         "prism-themes/themes/prism-darcula.css"
       ]
+    },
+    "callouts": {
+      "showTypeInHeader": false
     }
-
   }
 }
