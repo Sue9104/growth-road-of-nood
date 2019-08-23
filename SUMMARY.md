@@ -58,3 +58,6 @@
 * [testing](statistics/testing.md)
 * [survial analysis](statistics/survial-analysis.md)
 
+## MISC
+
+* [Glossary](Glossary.md)
