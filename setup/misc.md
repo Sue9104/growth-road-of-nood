@@ -1,6 +1,12 @@
 # MISC
 
 <!-- toc -->
+## Terminal color scheme
+
+[Gogh](https://mayccoll.github.io/Gogh/#0) : Frontend Galaxy
+
+Set this colorscheme to default, and change the highlight color.
+
 
 ## Login without password
 ```
@@ -75,6 +81,16 @@ document()
     <td>Graphviz</td>
     <td>code flow-chart</td>
     <td>https://graphviz.gitlab.io/_pages/doc/info/lang.html</td>
+  </tr>
+  <tr>
+    <td>Edrawmax</td>
+    <td>flow-chart</td>
+    <td>https://www.edrawsoft.com/en/download-edrawmax.html</td>
+  </tr>
+  <tr>
+    <td>Navicat</td>
+    <td>database relation</td>
+    <td>https://www.navicat.com.cn/</td>
   </tr>
 </table>
 

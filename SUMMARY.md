@@ -60,4 +60,5 @@
 
 ## MISC
 
-* [Glossary](Glossary.md)
+* [glossary](glossary.md)
+* [security](security.md)
