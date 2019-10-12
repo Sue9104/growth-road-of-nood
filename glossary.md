@@ -11,6 +11,17 @@ Object Relation Mapping, 对象关系映射，
 
 Create Read Update Delete 基本的数据库操作。
 
+### HTTP method vs CRUD
+
+|Method|CRUD|
+|:--:|:--:|
+|POST|Create|
+|PUT|Update|
+|PATCH|Partially Update|
+|GET|Read|
+|DELETE|Delete|
+
+
 
 ## WSGI vs uWSGI
 
