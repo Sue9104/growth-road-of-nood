@@ -29,6 +29,7 @@ vi /etc/samba/smb.conf
 
 ```text
 /etc/init.d/samba restart
+# sudo service smbd restart
 ```
 
 * create the share folder and change permissions

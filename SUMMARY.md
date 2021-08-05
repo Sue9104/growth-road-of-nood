@@ -8,6 +8,7 @@
 * [Git](setup/git.md)
 * [MISC](setup/misc.md)
 * [Samba](setup/samba.md)
+* [Flico](setup/flico.md)
 
 ## Programming
 
