@@ -15,7 +15,7 @@ cargo new my_crate --bin
 
 in **cargo.toml**
 
-```
+```text
 [dependencies]
 add-one = { path = "add-one" }
 ```
@@ -26,20 +26,24 @@ add-one = { path = "add-one" }
 
 ### 测试
 
-```
+```text
 cargo test -all
 ```
 
 ## build
-1. 指定平台 ```--target```
-```rust
-cargo build --target x86_64-unknown-linux-musl --release
-```
-2. 指定rust版本 ```+nightly```
-```rust
-cargo +nightly build
-rustup run nightly cargo build
-```
+
+1. 指定平台 `--target`
+
+   ```rust
+   cargo build --target x86_64-unknown-linux-musl --release
+   ```
+
+2. 指定rust版本 `+nightly`
+
+   ```rust
+   cargo +nightly build
+   rustup run nightly cargo build
+   ```
 
 ## 注释
 
@@ -72,6 +76,4 @@ cargo publish
 cargo yank --vers 1.0.1
 cargo yank --vers 1.0.1 --undo
 ```
-
-
 

@@ -1,22 +1,17 @@
-# Sphinx
+# sphinx
 
 ## Getting started
 
-```sh
+```bash
 sphinx-quickstart
 sphinx-build source build
 ```
 
-> set theme to sphinx_rtd_theme
+> set theme to sphinx\_rtd\_theme
 
-- Log Level
-   - error
-   - note
-   - tip
-   - warning
-
-
-
-
-
+* Log Level
+  * error
+  * note
+  * tip
+  * warning
 

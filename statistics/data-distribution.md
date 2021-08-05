@@ -1,4 +1,4 @@
-# 数据分布
+# distribution
 
 ## 常见分布
 
@@ -34,6 +34,4 @@ $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
 
 1. 期望 $$E(x)=\frac{1}{p}$$
 2. 标准差$$\sigma=\frac{(1-p)}{p^2}$$
-
-
 

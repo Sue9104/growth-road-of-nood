@@ -1,6 +1,6 @@
-# Ensemble Learning
+# ensemble learning
 
-视频学习参考：https://www.youtube.com/watch?v=tH9FH1DH5n0
+视频学习参考：[https://www.youtube.com/watch?v=tH9FH1DH5n0](https://www.youtube.com/watch?v=tH9FH1DH5n0)
 
 |  | Bagging | Boost |
 | :--- | :--- | :--- |
@@ -14,6 +14,4 @@
 | :--- | :--- |
 | BoostingTree | AdaBoost + DecisionTree |
 | GBDT | GradientBoost + DecisionTree |
-
-
 

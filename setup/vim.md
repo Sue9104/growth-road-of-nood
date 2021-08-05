@@ -1,9 +1,10 @@
-# vim
+# Vim
+
 ## dotfile
 
 > [https://github.com/skwp/dotfiles](https://github.com/skwp/dotfiles)
 
-```
+```text
 git clone https://github.com/Sue9104/custom-yadr.git
 cd custom-yadr
 make install
@@ -11,7 +12,7 @@ make install
 
 ## 性能
 
-```sh
+```bash
 # 1
 vim --startuptime timing.out
 
@@ -31,6 +32,4 @@ vim --startuptime timing.out
 | ctrl + j / ctrl + k | move between functions |
 | alt + number | terminal tab |
 | ctrl + pageup / pagedown | vim tab |
-
-
 

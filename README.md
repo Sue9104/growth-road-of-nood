@@ -1,6 +1,4 @@
-# 小白的成长之路
+# Introduction
 
-![](/pngs/first-page.jpg)
-
-
+![](.gitbook/assets/first-page.jpg)
 

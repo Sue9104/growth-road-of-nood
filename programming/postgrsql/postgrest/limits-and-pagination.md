@@ -1,6 +1,7 @@
 # Limits and Pagination
 
-There are two ways to apply a limit and offset rows: 
+There are two ways to apply a limit and offset rows:
+
 * query params 
 * request headers
 
@@ -22,14 +23,14 @@ Range-Unit: items
 Range: 0-24
 Prefer: count=exact
 ```
-> **Prefer: count=exact
-** obtain the total size of results in a pagination control
+
+> **Prefer: count=exact**  obtain the total size of results in a pagination control
 
 ```sql
 HTTP/1.1 206 Partial Content
 Range-Unit: items
 Content-Range: 0-24/3573458
-
 ```
-> **Partial Content
-** respond with the selected range
+
+> **Partial Content**  respond with the selected range
+

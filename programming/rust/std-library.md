@@ -1,4 +1,4 @@
-# Std Library types
+# std types
 
 ## struct
 
@@ -16,7 +16,8 @@ let pair = (1,2);
 ```
 
 ## Box
-A box is a smart pointer to a heap allocated value of type T. Boxed values can be dereferenced using the * operator.
+
+A box is a smart pointer to a heap allocated value of type T. Boxed values can be dereferenced using the \* operator.
 
 ```rust
 use std::mem;
@@ -30,13 +31,14 @@ fn main() {
     println!("Point Size: {}",   mem::size_of_val(&a));
     let b: Box<Point> = Box::new(a);
     println!("Point Size: {}", mem::size_of_val(&b));
-    
+
     let c = *b;
     println!("Point Size: {}", mem::size_of_val(&c));
 }
 ```
 
 ## Vectors
+
 Vectors are re-sizable arrays. A vector is represented using 3 words: a pointer to the data, its length, and its capacity. Iterators can be collected into vectors
 
 ```rust
@@ -51,11 +53,11 @@ fn main() {
 ```
 
 ## Strings
+
 std::str & std::string
 
-- A String is stored as a vector of bytes (Vec<u8>),  heap allocated, growable and not null terminated.
-
-- str is a slice (&[u8]) that always points to a valid UTF-8 sequence, and can be used to view into a String, just like &[T] is a view into Vec<T>.
+* A String is stored as a vector of bytes \(Vec\), heap allocated, growable and not null terminated.
+* str is a slice \(&\[u8\]\) that always points to a valid UTF-8 sequence, and can be used to view into a String, just like &\[T\] is a view into Vec.
 
 ```rust
 fn main() {
@@ -67,23 +69,28 @@ fn main() {
 ```
 
 ## Option
-The Option<T> enum has two variants:
-- None, to indicate failure or lack of value, and
-- Some(value), a tuple struct that wraps a value with type T.
+
+The Option enum has two variants:
+
+* None, to indicate failure or lack of value, and
+* Some\(value\), a tuple struct that wraps a value with type T.
 
 ## Result
-The Result<T, E> enum has two variants:
-- Ok(value) which indicates that the operation succeeded, and wraps the value returned by the operation. (value has type T)
-- Err(why), which indicates that the operation failed, and wraps why, which (hopefully) explains the cause of the failure. (why has type E)
+
+The Result enum has two variants:
+
+* Ok\(value\) which indicates that the operation succeeded, and wraps the value returned by the operation. \(value has type T\)
+* Err\(why\), which indicates that the operation failed, and wraps why, which \(hopefully\) explains the cause of the failure. \(why has type E\)
 
 > ? is used at the end of an expression returning a Result
 
 ## Caveat
 
-| type  | unit  | creat | remove |
-|:--:|:--:|:--:|:--:|
-| vector  | vec[0]  | vec![1,2];vec.push(3)|vec.pop(); |
-| turple  | turple.0  | | |
-| hashmap  | hashmap.get("a")  | hashmap.insert(key,value) ; hashmap.entry(key).or_insert(value);|hashmap.remove(key); hashmap.clear()|
-|struct| struct.a | ||
-|enum| enum::a | ||
+| type | unit | creat | remove |
+| :---: | :---: | :---: | :---: |
+| vector | vec\[0\] | vec!\[1,2\];vec.push\(3\) | vec.pop\(\); |
+| turple | turple.0 |  |  |
+| hashmap | hashmap.get\("a"\) | hashmap.insert\(key,value\) ; hashmap.entry\(key\).or\_insert\(value\); | hashmap.remove\(key\); hashmap.clear\(\) |
+| struct | struct.a |  |  |
+| enum | enum::a |  |  |
+

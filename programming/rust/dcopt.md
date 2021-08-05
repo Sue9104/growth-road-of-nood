@@ -1,7 +1,10 @@
-# docopt
-# 命令行参数
+# dcopt
 
-## Example
+## docopt
+
+## 命令行参数
+
+### Example
 
 ```rust
 #[macro_use]
@@ -72,3 +75,4 @@ fn main() {
     assert_eq!(args.arg_dest, s(""));
 }
 ```
+

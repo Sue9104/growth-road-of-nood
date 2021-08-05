@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 
@@ -7,33 +7,34 @@
 * [Vim](setup/vim.md)
 * [Git](setup/git.md)
 * [MISC](setup/misc.md)
+* [Samba](setup/samba.md)
 
 ## Programming
 
 * [Introduction](programming/introduction.md)
-* [perl](programming/perl.md)
+* [perl](programming/perl/README.md)
   * [Dist::Zilla](programming/perl/dzil-configure.md)
   * [documents](programming/perl/documents.md)
-* [python](programming/python.md)
+* [python](programming/python/README.md)
   * [pyenv](programming/python/pyenv.md)
   * [argparse](programming/python/argparse.md)
   * [decorator @](programming/python/decorator.md)
   * [django](programming/python/django.md)
   * [sphinx](programming/python/sphinx.md)
-* [postgrSQL](programming/postgrsql.md)
-  * [tutorial](programming/postgrsql/tutorial.md)
+* [postgrSQL](programming/postgrsql/README.md)
+  * [tutorial](programming/postgrsql/tutorial/README.md)
     * [table-partitioning](programming/postgrsql/tutorial/table-partitioning.md)
     * [sqitch](programming/postgrsql/tutorial/sqitch.md)
     * [db-api](programming/postgrsql/tutorial/db-sqitch-api.md)
-  * [recovery](programming/postgrsql/recovery.md)
+  * [recovery](programming/postgrsql/recovery/README.md)
     * [file system level backup](programming/postgrsql/recovery/file-system-level-backup.md)
     * [dump](programming/postgrsql/recovery/dump.md)
     * [PITR](programming/postgrsql/recovery/pitr.md)
     * [streaming replication](programming/postgrsql/recovery/streaming-replication.md)
-  * [postgrest](programming/postgrsql/postgrest.md)
+  * [postgrest](programming/postgrsql/postgrest/README.md)
     * [Limits and Pagination](programming/postgrsql/postgrest/limits-and-pagination.md)
-* [rust](programming/rust.md)
-  * [rustup ](programming/rust/rustup.md)
+* [rust](programming/rust/README.md)
+  * [rustup](programming/rust/rustup.md)
   * [cargo](programming/rust/cargo.md)
   * [iterator](programming/rust/interator.md)
   * [pattern](programming/rust/pattern.md)
@@ -60,5 +61,6 @@
 
 ## MISC
 
-* [glossary](glossary.md)
-* [security](security.md)
+* [glossary](misc/glossary.md)
+* [security](misc/security.md)
+

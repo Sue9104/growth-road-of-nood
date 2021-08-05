@@ -1,10 +1,10 @@
-# Benchmark tests
+# benchmark
 
-https://doc.rust-lang.org/1.1.0/test/
+[https://doc.rust-lang.org/1.1.0/test/](https://doc.rust-lang.org/1.1.0/test/)
 
 ## Bencher
 
-Required Method: iter 
+Required Method: iter
 
 ```rust
     #[bench]
@@ -13,10 +13,11 @@ Required Method: iter
     }
 ```
 
-## black_box
+## black\_box
 
 Compiler might recognize that some calculation has no external effects and remove it entirely.
-- ```iter``` receives can return an arbitrary value which forces the optimizer to consider the result used.
+
+* `iter` receives can return an arbitrary value which forces the optimizer to consider the result used.
 
 ```rust
 b.iter(|| {
@@ -25,7 +26,7 @@ b.iter(|| {
 });
 ```
 
-- black_box: forces optimizer to consider any argument as used.
+* black\_box: forces optimizer to consider any argument as used.
 
 ```rust
 b.iter(|| {
@@ -34,3 +35,4 @@ b.iter(|| {
     (0..n).fold(0, |a, b| a ^ b)
 });
 ```
+

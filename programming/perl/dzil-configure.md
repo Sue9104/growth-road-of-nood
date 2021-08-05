@@ -5,7 +5,8 @@
 Dist::Zilla is a program to make it easier to write, package, manage, and release free software. It's targeted at libraries written in the Perl programming language and released to the CPAN.
 
 ## Install
-```
+
+```text
 cpanm Dist::Zilla
 ```
 
@@ -13,16 +14,17 @@ cpanm Dist::Zilla
 
 ### Setup
 
-```
+```text
 dzil setup
 ```
 
 ### Create a default file
 
 1. create default direcory
-```
-mkdir -p ~/.dzil/profiles/default
-```
+
+   ```text
+   mkdir -p ~/.dzil/profiles/default
+   ```
 
 2. create three files: **profile.ini**, **Module.pm**, **plugins.ini**
 
@@ -37,7 +39,7 @@ append_file = plugins.ini
 
 plugins.ini
 
-```
+```text
 [@Basic]
 [FakeRelease]
 
@@ -109,7 +111,7 @@ __PACKAGE__->meta->make_immutable;
 
 ## Distifying Your Profile
 
-```
+```text
 dzil new My::Module
 dzil build 
 dzil test
@@ -118,5 +120,6 @@ dzil release
 
 ## Caveats
 
-* version format as "v(.+)$", for example ```git tags v1.000```
+* version format as "v\(.+\)$", for example `git tags v1.000`
 * podweaver will induce error in podsyntax
+

@@ -1,40 +1,45 @@
-# 数据库以及api搭建教程
-- 使用docker搭建pg数据库
-- sqitch进行数据库管理
+# db-api
+
+* 使用docker搭建pg数据库
+* sqitch进行数据库管理
 
 ## 单个数据库
 
 ## 多个数据库
+
 > 使用docker-compose进行数据库搭建、sqitch管理、提供API端口，形成一个完成的流程
 
 ### 准备配置文件
-- .env文件
-```sh
-# Docker specific configs
-# use only letters and numbers for the project name
-COMPOSE_PROJECT_NAME=genecard
-# Global configs
-DEVELOPMENT=1
-JWT_SECRET=secret
-TZ=Asia/Shanghai
-# DB connection details (used by all containers)
-DB_EXPOSE_PORT=5437
-DB_NAME=pharmgkb
-DB_SCHEMA=public
-DB_USER=postgres
-DB_PASS=123456
-POSTGREST_PORT=32581
-# PostgREST
-DB_ANON_ROLE=postgres
-DB_POOL=10
-#MAX_ROWS=
-#PRE_REQUEST=
-```
 
-- docker-compose.yaml
-```sh
-version:         '2'
-services:
+* .env文件
+
+  ```bash
+  # Docker specific configs
+  # use only letters and numbers for the project name
+  COMPOSE_PROJECT_NAME=genecard
+  # Global configs
+  DEVELOPMENT=1
+  JWT_SECRET=secret
+  TZ=Asia/Shanghai
+  # DB connection details (used by all containers)
+  DB_EXPOSE_PORT=5437
+  DB_NAME=pharmgkb
+  DB_SCHEMA=public
+  DB_USER=postgres
+  DB_PASS=123456
+  POSTGREST_PORT=32581
+  # PostgREST
+  DB_ANON_ROLE=postgres
+  DB_POOL=10
+  #MAX_ROWS=
+  #PRE_REQUEST=
+  ```
+
+* docker-compose.yaml
+
+  ```bash
+  version:         '2'
+  services:
   # PostgREST instance, is responsible for communicating with the database
   # and providing a REST api, (almost) every request that is sent to the database goes through it
   api:
@@ -77,44 +82,45 @@ services:
       - POSTGRES_USER=${DB_USER}
       - POSTGRES_PASSWORD=${DB_PASS}
       - POSTGRES_DB=${DB_NAME}
-```
+  ```
 
-- sqitch/init.sh
-```sh
-#!/usr/bin/env sh
-test_uri() {
+* sqitch/init.sh
+
+  ```bash
+  #!/usr/bin/env sh
+  test_uri() {
   echo select 1 | psql $DB_URI > /dev/null
-}
-while ! test_uri;
-do
+  }
+  while ! test_uri;
+  do
   sleep 2
-done
-export ANSI_COLORS_DISABLED=1
-# init or not
-if [ ! -f sqitch.plan ]; then
+  done
+  export ANSI_COLORS_DISABLED=1
+  # init or not
+  if [ ! -f sqitch.plan ]; then
   echo %project=$PROJECT > sqitch.plan
   chmod 766 sqitch.plan
-fi
-# config
-cat > sqitch.conf << EOL 
-[target "production"]
+  fi
+  # config
+  cat > sqitch.conf << EOL 
+  [target "production"]
   uri = $DB_URI
-[core]
+  [core]
   engine = pg
-[rebase]
+  [rebase]
   verify = true
-[deploy]
+  [deploy]
   verify = true
-[engine "pg"]
+  [engine "pg"]
   target = production
-[user]
+  [user]
   name = Su Min
   email = sumin@cheerlandgroup.com
-EOL
-if [ "$1" = 'sh' ]; then
+  EOL
+  if [ "$1" = 'sh' ]; then
   echo "Run bash command"
   $@  
-elif [ "$1" = "load" ]; then
+  elif [ "$1" = "load" ]; then
   echo "Load data from /data"
   ls -al /data
   if [ "$2" = "" ]; then
@@ -126,20 +132,23 @@ elif [ "$1" = "load" ]; then
   else
     cat load/${2}.sql | psql $DB_URI
   fi  
-else
+  else
   sqitch $@
-fi
-```
-### 运行命令
-```
-docker-compose up -d
-```
-### 用sqitch添加schema、table
-```
-sqitch add schema -n 'add schema'
-sqitch verify
-sqitch deploy
-sqitch revert
-```
+  fi
+  ```
 
+  **运行命令**
+
+  ```text
+  docker-compose up -d
+  ```
+
+  **用sqitch添加schema、table**
+
+  ```text
+  sqitch add schema -n 'add schema'
+  sqitch verify
+  sqitch deploy
+  sqitch revert
+  ```
 

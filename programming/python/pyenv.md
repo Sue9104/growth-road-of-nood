@@ -1,8 +1,8 @@
-# Pyenv
+# pyenv
 
 ## Install
 
-```
+```text
 sudo curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
 
@@ -10,7 +10,7 @@ sudo curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/p
 
 in ~/.zshrc
 
-```
+```text
 export PATH="~/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
@@ -22,7 +22,7 @@ eval "$(pyenv virtualenv-init -)"
 
 in ~/.zshrc
 
-```
+```text
 py_install(){
   v=$1
   wget http://mirrors.sohu.com/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/
@@ -33,10 +33,11 @@ py_install(){
 
 ### pip install
 
-in ~/.pip/pip.conf 
+in ~/.pip/pip.conf
 
-```
+```text
 [global]
 index-url = http://pypi.douban.com/simple
 trusted-host = pypi.douban.com
 ```
+
