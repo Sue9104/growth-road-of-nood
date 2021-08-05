@@ -5,7 +5,7 @@
 * install sambda
 
 ```text
-sudo apt-get install samba smbfs
+sudo apt-get install samba smbfs smbclient
 ```
 
 * configure
