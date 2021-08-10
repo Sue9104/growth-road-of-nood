@@ -6,9 +6,13 @@
 
 * [Vim](setup/vim.md)
 * [Git](setup/git.md)
-* [Samba](setup/samba.md)
 * [Flico](setup/flico.md)
-* [MISC](setup/misc.md)
+
+## Ubuntu
+
+* [Printer](ubuntu/printer.md)
+* [Samba](ubuntu/samba.md)
+* [MISC](ubuntu/misc.md)
 
 ## Programming
 
