@@ -4,6 +4,18 @@
 
 Ubuntu uses the Common UNIX Printing System \("CUPS"\) to handle printing. **CUPS uses the Internet Printing Protocol \("IPP"\) as the basis for managing print jobs and queues.** Other protocols are also supported \(LPD, SMB, AppSocket a.k.a JetDirect\), some with reduced functionality.
 
+## Setup
+
+```text
+sudo apt install cups
+sudo systemctl start cups
+systemctl status cups
+```
+
+> [https://help.ubuntu.com/community/NetworkPrintingWithUbuntu](https://help.ubuntu.com/community/NetworkPrintingWithUbuntu)
+>
+> [https://www.linuxbabe.com/ubuntu/set-up-cups-print-server-ubuntu-bonjour-ipp-samba-airprint](https://www.linuxbabe.com/ubuntu/set-up-cups-print-server-ubuntu-bonjour-ipp-samba-airprint)
+
 ## Print
 
 ```text
