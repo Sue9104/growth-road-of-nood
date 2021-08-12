@@ -50,6 +50,7 @@
   * [hash](programming/rust/hash.md)
   * [serde](programming/rust/serde.md)
   * [dcopt](programming/rust/dcopt.md)
+* [R](programming/r.md)
 
 ## Algorithms
 
