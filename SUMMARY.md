@@ -10,6 +10,7 @@
 
 ## Ubuntu
 
+* [Terminal](ubuntu/terminal.md)
 * [Printer](ubuntu/printer.md)
 * [Samba](ubuntu/samba.md)
 * [MISC](ubuntu/misc.md)

@@ -12,18 +12,69 @@ make install
 
 ## Shortcut
 
-### 文本内跳转
+### 跳转
 
-| shortcut | function |
-| :--- | :--- |
-| 0 | first word |
-| ^ | line first |
-| $ | line end |
-| w | skip to start by word |
-| e | skip to end by word |
-| % | show paird symbol \( { |
-| \* | skip to next same word |
-| \# | skip to previous same word |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">shortcut</th>
+      <th style="text-align:left">function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">first word</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">^</td>
+      <td style="text-align:left">line first</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">$</td>
+      <td style="text-align:left">line end</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">w</td>
+      <td style="text-align:left">skip to start by word</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">e</td>
+      <td style="text-align:left">skip to end by word</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%</td>
+      <td style="text-align:left">show paird symbol ( {</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">*</td>
+      <td style="text-align:left">skip to next same word</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">#</td>
+      <td style="text-align:left">skip to previous same word</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">[[</td>
+      <td style="text-align:left">jump between code block</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">{{</td>
+      <td style="text-align:left">jump between code block</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ctrl+w+left</td>
+      <td style="text-align:left">jump between windows</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>ctrl+alt+pageup</p>
+        <p>ctrl+alt+fn+pageup</p>
+      </td>
+      <td style="text-align:left">skip between vim tabs</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 剪切
 
@@ -32,6 +83,16 @@ make install
 | D | from cursor to line end |
 | dd | the whole line |
 | d2w | from cursor to the next 2 word |
+
+### Buffer
+
+| symbol | function |
+| :--- | :--- |
+| :ls | list buffer |
+| :b &lt;num&gt; | jump to the nth buffer |
+| Ctrl+^ | toggle between the current and the last buffer |
+| Ctrl+O | all the jumps you make in your buffers |
+| Ctrl+I | all the jumps you make in your buffers |
 
 ### 快速插入相同字符
 
@@ -66,10 +127,4 @@ vim --startuptime timing.out
 :profile pause
 :noautocmd qall!
 ```
-
-## 跳转
-
-| ctrl + o /  ctrl + i | jump between old and current cursor postion |
-| :--- | :--- |
-| ctrl + j / ctrl + k | move between functions |
 
