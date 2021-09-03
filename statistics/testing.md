@@ -1,8 +1,36 @@
 # testing
 
-## 关系图
-
 ![](../.gitbook/assets/testing.png)
+
+## 相关概念
+
+### 标准差 s
+
+$$
+s = \sqrt{\frac{\sum{(x_i - \bar{x})}}{n-1}}
+$$
+
+### 置信区间 CI
+
+$$
+\bar{x} \pm Z_{\alpha/2} \frac{s}{\sqrt{n}}
+$$
+
+### 一类错误 
+
+False Positive，弃真，原假设为真但拒绝了H0
+
+$$
+Type  I  error = P(统计量落入拒绝域|H_0) = \alpha
+$$
+
+### 二类错误
+
+False Negative，存伪，原假设为假但接受了
+
+$$
+Type  II  error = P(统计量落入接受域|H_1) = \beta
+$$
 
 ## 常见检验
 
@@ -53,9 +81,28 @@
 
 * 任何一個欄位的期望次數小於5，會使「近似於卡方分配」的假設不可信，应做連續性修正。
 
+## 多重检验校正
+
+* Bonferroni校正：最严格，会导致假阴性增高
+
+$$
+q = \frac{p}{n}
+$$
+
+* FDR （false positive rate）：比较温和
+  * Bonferroni-Hochberg 校正
+
+$$
+q = \frac{p}{rank} * n
+$$
+
+
+
 ## python实现
 
 scipy.stats，参考[https://segmentfault.com/a/1190000007626742](https://segmentfault.com/a/1190000007626742)
 
 python数据分析：[https://pythonfordatascience.org/](https://pythonfordatascience.org/)
+
+
 
