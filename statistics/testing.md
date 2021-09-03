@@ -10,7 +10,7 @@ $$
 s = \sqrt{\frac{\sum{(x_i - \bar{x})}}{n-1}}
 $$
 
-### 置信区间 CI
+### 置信区间 Confidence Level: 1 - α
 
 $$
 \bar{x} \pm Z_{\alpha/2} \frac{s}{\sqrt{n}}
@@ -31,6 +31,44 @@ False Negative，存伪，原假设为假但接受了
 $$
 Type  II  error = P(统计量落入接受域|H_1) = \beta
 $$
+
+1 - β：检验效能 power of test
+
+### 评价指标
+
+
+
+> [https://en.wikipedia.org/wiki/Sensitivity\_and\_specificity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
+
+
+
+#### 敏感度 sensitivity, recall
+
+$$
+sensitivity = \frac{\sum{true \space positive}}{\sum{actual \space positive}} = \frac{TP}{TP+FN}
+$$
+
+#### 阳性预测值 TPR, ture predictive rate
+
+$$
+TPR = \frac{\sum{true \space positive}}{\sum{predited \space positive}}  = \frac{TP}{TP+FP}
+$$
+
+#### 特异性 specificity, selectivity
+
+$$
+specificity = \frac{\sum{true \space negative}}{\sum{actual \space negative}} = \frac{TN}{TN+FP}
+$$
+
+
+
+#### 阴性预测值 FPR, false predictive rate
+
+$$
+FPR = \frac{\sum{true \space negative}}{\sum{predicted \space negative}} = \frac{TP}{TN+FN}
+$$
+
+
 
 ## 常见检验
 
