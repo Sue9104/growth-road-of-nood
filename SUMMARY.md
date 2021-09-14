@@ -22,6 +22,7 @@
   * [Dist::Zilla](programming/perl/dzil-configure.md)
   * [documents](programming/perl/documents.md)
 * [python](programming/python/README.md)
+  * [pandas](programming/python/pandas.md)
   * [pyenv](programming/python/pyenv.md)
   * [argparse](programming/python/argparse.md)
   * [decorator @](programming/python/decorator.md)
