@@ -13,6 +13,7 @@
 * [Terminal](ubuntu/terminal.md)
 * [Printer](ubuntu/printer.md)
 * [Samba](ubuntu/samba.md)
+* [Ipython](ubuntu/ipython.md)
 * [MISC](ubuntu/misc.md)
 
 ## Programming
