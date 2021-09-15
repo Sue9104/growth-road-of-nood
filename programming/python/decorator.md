@@ -28,23 +28,44 @@ c('c')
 
 ## 特殊用法
 
-* @staticmethod 不会隐式传入任何变量
-* @classmethod 将class作为第一个变量
-* @property 参数检查
+### @staticmethod 
 
-  ```python
-  class Student(object):
+不会隐式传入任何变量（self、cls），相当于普通方法
 
-    @property
-    def score(self):
-        return self._score
+### @classmethod 
 
-    @score.setter
-    def score(self, value):
-        if not isinstance(value, int):
-            raise ValueError('score must be an integer!')
-        if value < 0 or value > 100:
-            raise ValueError('score must between 0 ~ 100!')
-        self._score = value
-  ```
+将class作为第一个变量，常用来产生object
+
+```python
+class Mytask:
+    @classmethod
+    def classmeth(cls, args):
+        # will generate object
+        return cls(args=args)
+    @staticmethod
+    def staticmeth(*args):
+        return args
+    def normalmeth(*args):
+        return args
+```
+
+### @property
+
+参数检查，将方法作为参数使用
+
+```python
+class Student(object):
+
+  @property
+  def score(self):
+      return self._score
+
+  @score.setter
+  def score(self, value):
+      if not isinstance(value, int):
+          raise ValueError('score must be an integer!')
+      if value < 0 or value > 100:
+          raise ValueError('score must between 0 ~ 100!')
+      self._score = value
+```
 
