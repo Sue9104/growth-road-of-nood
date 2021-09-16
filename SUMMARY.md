@@ -23,6 +23,7 @@
   * [Dist::Zilla](programming/perl/dzil-configure.md)
   * [documents](programming/perl/documents.md)
 * [python](programming/python/README.md)
+  * [Basic](programming/python/basic.md)
   * [pandas](programming/python/pandas.md)
   * [luigi](programming/python/luigi.md)
   * [pyenv](programming/python/pyenv.md)
