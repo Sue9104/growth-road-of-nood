@@ -28,7 +28,6 @@
   * [luigi](programming/python/luigi.md)
   * [pyenv](programming/python/pyenv.md)
   * [argparse](programming/python/argparse.md)
-  * [decorator @](programming/python/decorator.md)
   * [django](programming/python/django.md)
   * [sphinx](programming/python/sphinx.md)
 * [postgrSQL](programming/postgrsql/README.md)

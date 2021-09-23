@@ -179,5 +179,28 @@ class Student(object):
       self._score = value
 ```
 
+## Mixin
 
+* 功能单一，按需继承
+* 本身不能实例化，仅可被子类继承
+
+```python
+class ReprMixin:
+  def __repr__(self):
+    s = self.__class__.__name__ + '('
+      for k, v in self.__dict__.items():
+        if not k.startswith('_'):
+          s += '{}={}, '.format(k, v)
+    s = s.rstrip(', ') + ')'  # 将最后一个逗号和空格换成括号
+    return s
+    
+class Person(ReprMixin):
+    def __init__(self, name, gender, age):
+        self.name = name
+        self.gender = gender
+        self.age = age
+
+p = Person("小陈", "男", 18)
+print(p)  # Person(name=小陈, gender=男, age=18)
+```
 
