@@ -30,6 +30,34 @@ Container  Hashable  Iterable  Iterator  Collection Sequence
 * _\_\_new\_\_:_ 创建实例，第一个参数是cls
 * _\_\_init\_\_:_ 实例初始化，第一个参数是self
 
+### Attribute
+
+* **Class Attribute will effect every instance\(@property\).**
+* **Instance Attribute only works in current object\(\_\_int\_\_\).**
+
+```python
+class Employee: 
+    
+    # class attribute
+    value = 0 
+    @property
+    def count(self):
+        print('Getting value') 
+        return self._value
+    @value.setter 
+    def value(self, value): 
+        print('Setting value to ' + value) 
+        self._value = value       
+    @value.deleter 
+    def value(self): 
+        print('Deleting value') 
+        del self._value 
+    
+    # instance attribute
+    def __init__(self, value): 
+        self._value = value     
+```
+
 ### metaclass
 
 * 动态创建类
