@@ -15,6 +15,7 @@
 * [Samba](ubuntu/samba.md)
 * [Ipython](ubuntu/ipython.md)
 * [Cron](ubuntu/cron.md)
+* [Mail](ubuntu/mail.md)
 * [MISC](ubuntu/misc.md)
 
 ## Programming
