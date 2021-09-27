@@ -34,8 +34,16 @@ Percent converts to a newline in crontab files
 ```bash
 sudo service cron start
 sudo service cron stop
-# after editing crontab files
-sudo service cron start
+
+
+# submit jobs
+crontab cron-files
+# delete jobs
+crontab -r
+# edit jobs
+crontab -e
+## always restart cron after editing
+sudo service cron restart
 ```
 
 ## Debug
