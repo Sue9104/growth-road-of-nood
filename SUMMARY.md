@@ -14,6 +14,7 @@
 * [Printer](ubuntu/printer.md)
 * [Samba](ubuntu/samba.md)
 * [Ipython](ubuntu/ipython.md)
+* [Cron](ubuntu/cron.md)
 * [MISC](ubuntu/misc.md)
 
 ## Programming
