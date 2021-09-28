@@ -8,7 +8,7 @@
 | Vue | JavaScript | 小米、阿里巴巴 | 文档覆盖率高，Laravel集成，但市场份额相对匮乏 |
 | Angular | JavaScript | Google、Youtube、AWS | Typescript语法复杂，迁移成本高 |
 
-## C/S vs B/S
+## Client/Server vs Browser/Server
 
 |  | Client/Server | Browser/Server |
 | :--- | :--- | :--- |
@@ -35,7 +35,7 @@
 
 参考：[https://www.geeksforgeeks.org/strategy-pattern-set-1/](introduction.md)
 
-### Document for OOP
+### Document
 
 |  | 内容 | 关系 | 用途 |
 | :--- | :--- | :--- | :--- |
@@ -49,35 +49,35 @@
 | 构件图 Component | 构件间的关系 | 构件、接口、关系（依赖、实现） | 可替换的物理部分 |
 | 部署图 Deployment | 系统的软、硬件拓扑 | 结点（Node,物理元素）、物件（Artifact,开发过程产物）、连接（Association,通讯路径） | 描述物理组件、分布以及关联 |
 
-* 用况图
+### usecase 用况图
 
 ![](../.gitbook/assets/usecase.png)
 
-* 类图
+### Class 类图
 
 ![](../.gitbook/assets/类图.png)
 
-* 顺序图
+### Sequence 顺序图
 
 ![](../.gitbook/assets/Dequence.jpg)
 
-* 协作图
+### Communication 协作图
 
 ![](../.gitbook/assets/communication.jpeg)
 
-* 状态图
+### State 状态图
 
 ![](../.gitbook/assets/state.jpg)
 
-* 活动图
+### Activity 活动图
 
 ![](../.gitbook/assets/activity.png)
 
-* 构件图
+### Component 构件图
 
 ![](../.gitbook/assets/component.png)
 
-* 部署图
+### Deployment 部署图
 
 ![](../.gitbook/assets/deployment.png)
 

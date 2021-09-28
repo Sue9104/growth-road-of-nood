@@ -1,5 +1,21 @@
 # MISC
 
+## Basic
+
+### Memory
+
+ps命令
+
+* VSZ：程序被分配的内存
+* RSS：程序实际占用内存（不含交换区）
+
+htop命令
+
+* VIRT：程序被分配的内存
+* RES：程序实际占用内存（不含交换区）
+* SHR：共享内存
+* Mem颜色：green\(used\)、blue\(buffer\)、yellow\(cached\)
+
 ## Terminal color scheme
 
 [Gogh](https://mayccoll.github.io/Gogh/#0) : Frontend Galaxy
@@ -63,4 +79,6 @@ document()
 | Graphviz | code flow-chart | https://graphviz.gitlab.io/\_pages/doc/info/lang.html |
 | Edrawmax | flow-chart | https://www.edrawsoft.com/en/download-edrawmax.html |
 | Navicat | database relation | https://www.navicat.com.cn/ |
+
+
 
