@@ -1,4 +1,4 @@
-# python
+# Python
 
 awesome python: [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
 
