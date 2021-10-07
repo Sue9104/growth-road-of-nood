@@ -1,11 +1,5 @@
 # Git
 
-## Basic
-
-### Hosts加速
-
-* [https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
-
 ## 分支
 
 ![](../.gitbook/assets/git_workflow.png)
@@ -79,4 +73,8 @@ ssh-add ~/.ssh/id_ed25519
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
+
+### Hosts加速
+
+* [https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
 
