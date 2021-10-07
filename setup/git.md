@@ -1,6 +1,8 @@
 # Git
 
-## Hosts加速
+## Basic
+
+### Hosts加速
 
 * [https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
 
@@ -54,5 +56,27 @@
 
 ```text
 cargo install clog-cli
+```
+
+## 常见问题
+
+### create a new ssh key and adding to ssh-agent
+
+* localhost
+
+```text
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+* github website
+  * Settings -&gt; SSH and GPG Keys
+
+### connection timed out
+
+```text
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 
