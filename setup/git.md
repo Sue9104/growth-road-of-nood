@@ -1,5 +1,9 @@
 # Git
 
+## Hosts加速
+
+* [https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
+
 ## 分支
 
 ![](../.gitbook/assets/git_workflow.png)
