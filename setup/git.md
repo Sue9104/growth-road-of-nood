@@ -48,13 +48,24 @@
 
 ### changelog
 
+* install automatic tools: `cargo install clog-cli`
+* write .clog.toml 
+
 ```
-cargo install clog-cli
+[clog]
+repository = "https://github.com/username/repository_name"
+outfile = "CHANGELOG.md"
+from-latest-tag = true
+
+[sections]
+Others = ["build", "ci", "test"]
 ```
+
+* `clog --subtitle 1.0.0`
+
+
 
 ### release
-
-###
 
 ```
 # Interactively create a release
