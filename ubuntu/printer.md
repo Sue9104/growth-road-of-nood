@@ -1,12 +1,12 @@
 # Printer
 
-## Background 
+## Background&#x20;
 
-Ubuntu uses the Common UNIX Printing System \("CUPS"\) to handle printing. **CUPS uses the Internet Printing Protocol \("IPP"\) as the basis for managing print jobs and queues.** Other protocols are also supported \(LPD, SMB, AppSocket a.k.a JetDirect\), some with reduced functionality.
+Ubuntu uses the Common UNIX Printing System ("CUPS") to handle printing. **CUPS uses the Internet Printing Protocol ("IPP") as the basis for managing print jobs and queues. **Other protocols are also supported (LPD, SMB, AppSocket a.k.a JetDirect), some with reduced functionality.
 
 ## Setup
 
-```text
+```
 sudo apt install cups
 sudo systemctl start cups
 systemctl status cups
@@ -16,15 +16,24 @@ systemctl status cups
 >
 > [https://www.linuxbabe.com/ubuntu/set-up-cups-print-server-ubuntu-bonjour-ipp-samba-airprint](https://www.linuxbabe.com/ubuntu/set-up-cups-print-server-ubuntu-bonjour-ipp-samba-airprint)
 
+### options
+
+```
+# list printer detail
+lpoptions -p szyc-322 -l
+# set printer default setting
+lpoptions -p szyc-322 -o PageSize=A4 -o Duplex=None
+```
+
 ## Print
 
-```text
+```
 lpr -P 322-printer -o media=a4 -o sides=one-sided *pdf
 ```
 
 ## Queque
 
-```text
+```
 lpq -P 322-printer
 ```
 
@@ -36,7 +45,7 @@ when printer is not ready
 
 ## Information
 
-```text
+```
 #show models
 lpinfo -m
 
@@ -46,9 +55,7 @@ lpinfo -v
 
 ## Administration
 
-```text
+```
 lpadmin -p 322-printer -o printer-error-policy=retry-current-job
 ```
-
-
 
