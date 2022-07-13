@@ -25,6 +25,7 @@
   * [Dist::Zilla](programming/perl/dzil-configure.md)
   * [documents](programming/perl/documents.md)
 * [Python](programming/python/README.md)
+  * [conda](programming/python/conda.md)
   * [Basic](programming/python/basic.md)
   * [pandas](programming/python/pandas.md)
   * [luigi](programming/python/luigi.md)
