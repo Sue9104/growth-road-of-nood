@@ -57,6 +57,7 @@
   * [serde](programming/rust/serde.md)
   * [dcopt](programming/rust/dcopt.md)
 * [R](programming/r.md)
+* [Makefile](programming/makefile.md)
 
 ## Algorithms
 
@@ -75,4 +76,3 @@
 
 * [glossary](misc/glossary.md)
 * [security](misc/security.md)
-
