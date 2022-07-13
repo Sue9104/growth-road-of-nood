@@ -9,10 +9,6 @@
 | conda env create -f env.yaml | create environment from yaml file |
 
 {% hint style="danger" %}
-## **ResolvePackageNotFound while creating from yaml file** <a href="#articlecontentid" id="articlecontentid"></a>
-{% endhint %}
-
-{% hint style="danger" %}
 <mark style="color:red;">**ResolvePackageNotFound while creating env from yaml file**</mark>
 
 building details are included in the yaml file
