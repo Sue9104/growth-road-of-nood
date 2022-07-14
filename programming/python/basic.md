@@ -51,6 +51,16 @@ Container  Hashable  Iterable  Iterator  Collection Sequence
 | Literal                                            | 函数参数的值等价于提供的字面量（或者几个字面量的其中之一）                 |
 | overload, final, no\__typecheck, runtime_checkable | 装饰器                                           |
 
+{% hint style="success" %}
+运行类型检查器
+
+python脚本运行时并不会自动检查，需要相关工具
+
+`pip install mypy`
+
+`mypy python_script.py`
+{% endhint %}
+
 ## Class
 
 ### \_\_new\_\_ vs \_\_init\_\_
