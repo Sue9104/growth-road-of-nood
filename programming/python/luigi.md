@@ -1,4 +1,4 @@
-# luigi
+# Luigi
 
 ## Configuration
 
@@ -6,13 +6,13 @@
 
 Support parsers:  toml or cfg
 
-Locations: 
+Locations:&#x20;
 
 * **/etc/luigi/luigi.cfg**
 * **luigi.cfg**
 * **LUIGI\_CONFIG\_PATH**
 
-```text
+```
 [core]
 default_scheduler_url=http://localhost:8082/
 log_level=DEBUG
@@ -44,16 +44,14 @@ wait_interval=1
 
 ### tracking
 
-* self.set\_progress\_percentage\(\)
-* self.set\_status\_message\(\)
+* self.set\_progress\_percentage()
+*   self.set\_status\_message()
 
-  ```text
-  self.set_status_message(
-  ```
+    ```
+    self.set_status_message(
+    ```
 
-  ```text
-  self.set_progress_percentage(i)
-  ```
-
-
+    ```
+    self.set_progress_percentage(i)
+    ```
 
