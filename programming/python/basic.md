@@ -17,9 +17,13 @@
 
 namedtuple  deque  ChainMap  Counter  OrderedDict  defaultdict  UserDict  UserList UserString
 
+
+
 ### 抽象基类 Abstract Base Class
 
 > 参考：collections.abc&#x20;
+>
+> [https://docs.python.org/zh-tw/3.10/library/collections.abc.html#collections.abc.Mapping](https://docs.python.org/zh-tw/3.10/library/collections.abc.html#collections.abc.Mapping)
 
 Container  Hashable  Iterable  Iterator  Collection Sequence
 
@@ -27,22 +31,25 @@ Container  Hashable  Iterable  Iterator  Collection Sequence
 
 ### typing 类型标注
 
-|                                                    |                                    |
-| -------------------------------------------------- | ---------------------------------- |
-| List, Turple, Sequence                             | 数组类型                               |
-| NewType(key, valuetype)                            | 自定义新类型                             |
-| TypeVar, Generic                                   | TypeVar定义，Generic泛型类型              |
-| Any                                                | 混用动态和静态类型                          |
-| Sized, Iterable, Iterator,Callable                 | 名义性子类型                             |
-| Dict, DefaultDict, OrderedDict                     | 字典                                 |
-| Generator\[YieldType, SendType, ReturnType]        |                                    |
-| Text                                               | str别名，对python2向下兼容                 |
-| IO, TextIO, BInaryIO                               | IO类型                               |
-| Pattern, Match                                     | re.compile, re.match返回类型           |
-| NamedTuple, TypedDict                              |                                    |
-| Optional                                           | `Optional[X]` 等价于 `Union[X, None]` |
-| Literal                                            | 函数参数的值等价于提供的字面量（或者几个字面量的其中之一）      |
-| overload, final, no\__typecheck, runtime_checkable | 装饰器                                |
+[https://docs.python.org/zh-tw/3.10/library/typing.html#](https://docs.python.org/zh-tw/3.10/library/typing.html)
+
+|                                                    |                                               |
+| -------------------------------------------------- | --------------------------------------------- |
+| List, Turple, Sequence                             | 数组类型                                          |
+| NewType(key, valuetype)                            | 自定义新类型                                        |
+| TypeVar, Generic                                   | TypeVar定义，Generic泛型类型                         |
+| Any                                                | 混用动态和静态类型                                     |
+| Sized, Iterable, Iterator                          | 名义性子类型                                        |
+| `Callable`                                         | `Callable[[Arg1Type, Arg2Type], ReturnType]`  |
+| Dict, DefaultDict, OrderedDict                     | 字典                                            |
+| Generator\[YieldType, SendType, ReturnType]        |                                               |
+| Text                                               | str别名，对python2向下兼容                            |
+| IO, TextIO, BInaryIO                               | IO类型                                          |
+| Pattern, Match                                     | re.compile, re.match返回类型                      |
+| NamedTuple, TypedDict                              |                                               |
+| Optional                                           | `Optional[X]` 等价于 `Union[X, None]`            |
+| Literal                                            | 函数参数的值等价于提供的字面量（或者几个字面量的其中之一）                 |
+| overload, final, no\__typecheck, runtime_checkable | 装饰器                                           |
 
 ## Class
 
