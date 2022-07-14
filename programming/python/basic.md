@@ -4,12 +4,12 @@
 
 ### 序列类型
 
-| Type | Symbol | Content |
-| :--- | :--- | :--- |
-| List | \[1，2\] | 可变序列 |
-| Tuple | 1,2  \|\|  \(1，2\) | 不可变的 |
-| Set | set\(\) | 不重复元素组成的无序容器，可进行数学运算（- \| & ^），{} |
-| Dict | {} \|\| dict\(\) | 键值对 |
+| Type  | Symbol           | Content                           |
+| ----- | ---------------- | --------------------------------- |
+| List  | \[1，2]           | 可变序列                              |
+| Tuple | 1,2  \|\|  (1，2) | 不可变的                              |
+| Set   | set()            | 不重复元素组成的无序容器，可进行数学运算（- \| & ^），{} |
+| Dict  | {} \|\| dict()   | 键值对                               |
 
 ### 容器数据类型 Container Datatypes
 
@@ -19,9 +19,30 @@ namedtuple  deque  ChainMap  Counter  OrderedDict  defaultdict  UserDict  UserLi
 
 ### 抽象基类 Abstract Base Class
 
-> 参考：collections.abc
+> 参考：collections.abc&#x20;
 
 Container  Hashable  Iterable  Iterator  Collection Sequence
+
+## Function
+
+### typing 类型标注
+
+|                                                    |                                    |
+| -------------------------------------------------- | ---------------------------------- |
+| List, Turple, Sequence                             | 数组类型                               |
+| NewType(key, valuetype)                            | 自定义新类型                             |
+| TypeVar, Generic                                   | TypeVar定义，Generic泛型类型              |
+| Any                                                | 混用动态和静态类型                          |
+| Sized, Iterable, Iterator,Callable                 | 名义性子类型                             |
+| Dict, DefaultDict, OrderedDict                     | 字典                                 |
+| Generator\[YieldType, SendType, ReturnType]        |                                    |
+| Text                                               | str别名，对python2向下兼容                 |
+| IO, TextIO, BInaryIO                               | IO类型                               |
+| Pattern, Match                                     | re.compile, re.match返回类型           |
+| NamedTuple, TypedDict                              |                                    |
+| Optional                                           | `Optional[X]` 等价于 `Union[X, None]` |
+| Literal                                            | 函数参数的值等价于提供的字面量（或者几个字面量的其中之一）      |
+| overload, final, no\__typecheck, runtime_checkable | 装饰器                                |
 
 ## Class
 
@@ -32,8 +53,8 @@ Container  Hashable  Iterable  Iterator  Collection Sequence
 
 ### Attribute
 
-* **Class Attribute will effect every instance\(@property\).**
-* **Instance Attribute only works in current object\(\_\_int\_\_\).**
+* **Class Attribute will effect every instance(@property).**
+* **Instance Attribute only works in current object(\_\_int\_\_).**
 
 ```python
 class Employee: 
@@ -129,7 +150,7 @@ def say(something):
     print("say {}!".format(something))        
 ```
 
-### @staticmethod 
+### @staticmethod&#x20;
 
 不会隐式传入任何变量（self、cls），相当于普通方法，直接访问无需实例化
 
@@ -142,7 +163,7 @@ class XiaoMing:
 XiaoMing.say_hello()
 ```
 
-### @classmethod 
+### @classmethod&#x20;
 
 将class作为第一个变量，常用来产生object。直接访问无需实例化
 
@@ -203,4 +224,3 @@ class Person(ReprMixin):
 p = Person("小陈", "男", 18)
 print(p)  # Person(name=小陈, gender=男, age=18)
 ```
-
