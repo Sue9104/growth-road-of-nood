@@ -6,16 +6,16 @@ Job Scheduler
 
 The first five columns: minute, hour, day, day of month, month, day of week
 
-| Special Characters | Purpose |
-| :--- | :--- |
-| asterisk\(\*\) | all |
-| question\(?\) | unspecified, as \* \* \* 10 ?: 10th day and unkonown week |
-| dash\(-\) | a range of values |
-| comma\(,\) | a list of values |
-| slash\(/\) | skip a given number |
-| L | Last is allowed for day of month and day of week |
-| W | Weekday is allowed for day of month |
-| pound\(\#\) | pound is allowed for day of week, such as 6\#3 \(the third Friday\) |
+| Special Characters | Purpose                                                          |
+| ------------------ | ---------------------------------------------------------------- |
+| asterisk(\*)       | all                                                              |
+| question(?)        | unspecified, as \* \* \* 10 ?: 10th day and unkonown week        |
+| dash(-)            | a range of values                                                |
+| comma(,)           | a list of values                                                 |
+| slash(/)           | skip a given number                                              |
+| L                  | Last is allowed for day of month and day of week                 |
+| W                  | Weekday is allowed for day of month                              |
+| pound(#)           | pound is allowed for day of week, such as 6#3 (the third Friday) |
 
 ```bash
 #!/bin/bash
@@ -25,7 +25,7 @@ The first five columns: minute, hour, day, day of month, month, day of week
 {% hint style="info" %}
 Percent converts to a newline in crontab files
 
-* escape: \%
+* escape: \\%
 * write command in shell scripts
 {% endhint %}
 
@@ -51,4 +51,3 @@ sudo service cron restart
 * environment path
 * writable permission
 * check log: "grep cron /var/log/syslog"
-

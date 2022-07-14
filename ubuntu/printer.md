@@ -2,7 +2,7 @@
 
 ## Background&#x20;
 
-Ubuntu uses the Common UNIX Printing System ("CUPS") to handle printing. **CUPS uses the Internet Printing Protocol ("IPP") as the basis for managing print jobs and queues. **Other protocols are also supported (LPD, SMB, AppSocket a.k.a JetDirect), some with reduced functionality.
+Ubuntu uses the Common UNIX Printing System ("CUPS") to handle printing. **CUPS uses the Internet Printing Protocol ("IPP") as the basis for managing print jobs and queues.** Other protocols are also supported (LPD, SMB, AppSocket a.k.a JetDirect), some with reduced functionality.
 
 ## Setup
 
