@@ -27,8 +27,8 @@ sphinx-quickstart docs
  # edit extension
  extensions = [
      'sphinx.ext.autodoc',
-     'sphinx.ext.coverage'
-     'sphinx.ext.napoleon'
+     'sphinx.ext.coverage',
+     'sphinx.ext.napoleon',
  ]
  
 ```
@@ -79,16 +79,11 @@ make html
 
     Returns:
         A dict mapping keys to the corresponding table row data
-        fetched. Each row is represented as a tuple of strings. For
-        example:
+        fetched. For example:
 
         {b'Serak': ('Rigel VII', 'Preparer'),
         b'Zim': ('Irk', 'Invader'),
         b'Lrrr': ('Omicron Persei 8', 'Emperor')}
-
-        Returned keys are always bytes.  If a key from the keys argument is
-        missing from the dictionary, then that row was not found in the
-        table (and require_all_keys must have been False).
 
     Raises:
         IOError: An error occurred accessing the smalltable.
@@ -108,4 +103,3 @@ make html
         eggs: An integer count of the eggs we have laid.
     """
 ```
-
