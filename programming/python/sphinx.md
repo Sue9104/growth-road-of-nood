@@ -16,21 +16,27 @@ sphinx-quickstart docs
 ### source/conf.py
 
 ```python
- # add project path to sys.path
- import os                                                                        
- import sys                                                                       
- sys.path.insert(0, os.path.abspath('../../src'))
+# add project path to sys.path
+import os                                                                        
+import sys                                                                       
+sys.path.insert(0, os.path.abspath('../../src'))
  
- # edit theme
- html_theme = 'nature'
+# edit theme
+html_theme = 'nature'
  
- # edit extension
- extensions = [
-     'sphinx.ext.autodoc',
-     'sphinx.ext.coverage',
-     'sphinx.ext.napoleon',
- ]
+# edit extension
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.coverage',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
+]
  
+ 
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3',(None, 'python-inv.txt'))}
+autodoc_typehints_format = 'short'
+autodoc_class_signature = 'separated' 
 ```
 
 ### index.rst
