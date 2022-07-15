@@ -19,7 +19,7 @@ sphinx-quickstart docs
  # add project path to sys.path
  import os                                                                        
  import sys                                                                       
- sys.path.insert(0, os.path.abspath('../../'))
+ sys.path.insert(0, os.path.abspath('../../src'))
  
  # edit theme
  html_theme = 'nature'
