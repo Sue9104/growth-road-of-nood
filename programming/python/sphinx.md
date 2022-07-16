@@ -19,10 +19,10 @@ sphinx-quickstart docs
 # add project path to sys.path
 import os                                                                        
 import sys                                                                       
-sys.path.insert(0, os.path.abspath('../../src'))
+sys.path.insert(0, os.path.abspath('../../'))
  
 # edit theme
-html_theme = 'nature'
+html_theme = 'sphinx_book_theme'
  
 # edit extension
 extensions = [
@@ -35,8 +35,7 @@ extensions = [
  
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3',(None, 'python-inv.txt'))}
-autodoc_typehints_format = 'short'
-autodoc_class_signature = 'separated' 
+ 
 ```
 
 ### index.rst
