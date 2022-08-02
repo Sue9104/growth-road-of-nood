@@ -58,8 +58,9 @@
   * [hash](programming/rust/hash.md)
   * [serde](programming/rust/serde.md)
   * [dcopt](programming/rust/dcopt.md)
-* [R](programming/r/README.md)
+* [R](programming/r.md)
   * [Object](programming/r/object.md)
+  * [CommandLine](programming/r/commandline.md)
 * [Makefile](programming/makefile.md)
 
 ## Algorithms
