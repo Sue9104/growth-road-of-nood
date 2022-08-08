@@ -26,3 +26,13 @@ convert -rotate 270 sky.jpg sky-final.jpg
 convert -fill black -pointsize 60 -font helvetica -draw 'text 10,80 "Hello, World!" ‘  hello.jpg  helloworld.jpg
 
 ```
+
+## Graphviz
+
+```
+// install
+sudo apt install graphviz
+
+// more options: https://graphviz.gitlab.io/doc/info/command.html
+dot -Tsvg input.dot
+```
