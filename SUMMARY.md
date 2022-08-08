@@ -61,6 +61,7 @@
 * [R](programming/r.md)
   * [Object](programming/r/object.md)
   * [CommandLine](programming/r/commandline.md)
+  * [Package](programming/r/package.md)
 * [Makefile](programming/makefile.md)
 
 ## Algorithms
