@@ -16,6 +16,7 @@
 * [Ipython](ubuntu/ipython.md)
 * [Cron](ubuntu/cron.md)
 * [Mail](ubuntu/mail.md)
+* [Image](ubuntu/image.md)
 * [MISC](ubuntu/misc.md)
 
 ## Programming
