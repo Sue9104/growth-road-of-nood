@@ -1,5 +1,15 @@
 # Package
 
+## Devtools
+
+{% embed url="https://devtools.r-lib.org/" %}
+
+![](<../../.gitbook/assets/2022-08-09 19-33-30 的屏幕截图.png>)
+
+![](<../../.gitbook/assets/2022-08-09 19-36-36 的屏幕截图.png>)
+
+### Quick Start
+
 ```
 // 创建包的骨架
 library(devtools)
@@ -14,3 +24,41 @@ function_test_1()
 document()
 // 打包
 ```
+
+### File Format
+
+| file       | content              | function        |
+| ---------- | -------------------- | --------------- |
+| rds        | single R object      | saveRDS、readRDS |
+| RData(rda) | multile R object     | save、load       |
+| rd         | roxygen comment file |                 |
+
+## Roxygen2
+
+{% embed url="https://cran.r-project.org/web/packages/roxygen2/vignettes/" %}
+
+### Reuse
+
+`@describeIn <destination> <description>`&#x20;
+
+```
+#' Power
+#' @param x base
+#' @param exp exponent
+power <- function(x, exp) x ^ exp
+
+#' @describeIn power Square a number
+square <- function(x) power(x, 2)
+
+#' @describeIn power Cube a number
+cube <- function(x) power(x, 3)
+```
+
+`@inheritParams <source function>`
+
+`@inheritParams <source function> <params`, `return`, `title`, `description`, `details`, `seealso`, `sections`, `references`, `examples`, `author`, `source`, `note>`
+
+@`inheritSection <pkg::source function> <section title>`
+
+``
+
