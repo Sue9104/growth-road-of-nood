@@ -11,17 +11,38 @@
 ### Quick Start
 
 ```
-// 创建包的骨架
+// init
 library(devtools)
 create("~/package-name")
 setwd("~/package-name")
-// 添加R包到"~/package-name/R"
-// 运行测试
+use_git()
+use_mit_license()
+
+// create R script file
+use_r("filename")
+// change filename both in R and tests
+rename_files("strsplit1", "str_split_one")
+
+// enter package environment
 load_all()
 function_test()
-function_test_1()
-// 生成文档
+
+// test, wrinting to tests folder
+use_testthat()
+use_test("function")
+
+// requirements, writing to DESCRIPTION
+use_package("stringr")
+
+// document, writing to NAMESPACE and rd files
 document()
+use_readme_rmd()
+build_readme()
+
+// final
+check()
+install()
+
 // 打包
 ```
 
