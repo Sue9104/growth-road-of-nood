@@ -24,21 +24,15 @@ x\[] <- 0 `#all elements assign 0`
 
 `[`取子列表`, [[`提取某个元素。`x$y`等同于`x[["y"]]`
 
-``
-
-
-
-```r
-attr(y, "my_attribute") <- "This is a vector"
-attr(y, "my_attribute")
-str(attributes(y))
-```
-
 ## Operators
 
 **+  -  \*  /  ^|\*\*  %%  %/%**&#x20;
 
 **<  >  ==  !=  !x  x|y  x\&y  isTRUE(x)**
+
+**all, any, which**
+
+**intersection, union, setdiff, setequal**
 
 ## Apply
 
