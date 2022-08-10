@@ -10,6 +10,8 @@
 
 ### Quick Start
 
+{% embed url="https://r-pkgs.org/" %}
+
 ```
 // init
 library(devtools)

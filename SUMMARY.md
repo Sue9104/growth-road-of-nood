@@ -60,8 +60,8 @@
   * [serde](programming/rust/serde.md)
   * [dcopt](programming/rust/dcopt.md)
 * [R](programming/r.md)
+  * [Basic](programming/r/basic.md)
   * [Object](programming/r/object.md)
-  * [CommandLine](programming/r/commandline.md)
   * [Package](programming/r/package.md)
 * [Makefile](programming/makefile.md)
 
