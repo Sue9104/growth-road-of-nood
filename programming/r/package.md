@@ -54,6 +54,28 @@ install()
 | RData(rda) | multile R object     | save、load       |
 | rd         | roxygen comment file |                 |
 
+### Data
+
+#### internal data
+
+R/sysdata.rda
+
+x <- [sample](https://rdrr.io/r/base/sample.html)(1000) usethis::[use\_data](https://usethis.r-lib.org/reference/use\_data.html)(x, mtcars, internal = TRUE)
+
+#### Raw Data
+
+put the original files in `inst/extdata`
+
+[system.file](https://rdrr.io/r/base/system.file.html)("extdata", "iris.csv", package = "readr", mustWork = TRUE)
+
+#### Export Data
+
+files in data/ is default exported
+
+
+
+
+
 ## Roxygen2
 
 {% embed url="https://cran.r-project.org/web/packages/roxygen2/vignettes/" %}
