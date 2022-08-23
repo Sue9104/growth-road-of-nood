@@ -77,32 +77,7 @@ Bioconductor Home - Common Work Flows
 
 
 
-\
 
-
-特殊值
-
-| NA   | 缺失值(not available )  |
-| ---- | -------------------- |
-| NaN  | 无意义的值(not a number ) |
-| NULL | 空数据                  |
-| Inf  | 无穷大                  |
-
-\
-
-
-编程风格
-
-[https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)
-
-\
-
-
-更多教程
-
-[https://rstudio.github.io/r-manuals](https://rstudio.github.io/r-manuals)
-
-http://manuals.bioinformatics.ucr.edu/home/programming-in-r
 
 ## Install package
 
