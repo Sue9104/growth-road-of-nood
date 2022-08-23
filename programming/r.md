@@ -1,5 +1,22 @@
 # R
 
+## **数据结构**
+
+<figure><img src="../.gitbook/assets/Aiomic vector （原子肉量）.png" alt=""><figcaption></figcaption></figure>
+
+更多：[https://bookdown.org/xiao/RAnalysisBook/section-2.html](https://bookdown.org/xiao/RAnalysisBook/section-2.html)
+
+[https://haoeric.gitbooks.io/r-advanced/content/datastructure.html](https://haoeric.gitbooks.io/r-advanced/content/datastructure.html)****
+
+**特殊值**
+
+| 类型   | 含义                   |
+| ---- | -------------------- |
+| NA   | 缺失值(not available )  |
+| NaN  | 无意义的值(not a number ) |
+| NULL | 空数据                  |
+| Inf  | <p></p><p>无穷大</p>    |
+
 ## **Bioconductor**
 
 **Softwares**
@@ -154,3 +171,13 @@ local({
 ```
 {% endcode %}
 
+## 编程风格
+
+[https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)\
+
+
+## 更多教程
+
+[https://rstudio.github.io/r-manuals](https://rstudio.github.io/r-manuals)
+
+http://manuals.bioinformatics.ucr.edu/home/programming-in-r
