@@ -17,22 +17,7 @@
 | NULL | 空数据                  |
 | Inf  | <p></p><p>无穷大</p>    |
 
-## **Bioconductor**
-
-**Softwares**
-
-Bioconductor Home - Softwares - Biological Question
-
-* browseVignettes("DESeq2") 查看教程
-* NEWS 版本更新记录
-
-**Workflows**
-
-经典的分析流程
-
-Bioconductor Home - Common Work Flows
-
-
+****
 
 ## 常用命令
 
@@ -44,7 +29,7 @@ Bioconductor Home - Common Work Flows
 | vignette(‘function’)                   | 文档                |
 | RSiteSearch()                          | <p>搜索相关资源<br></p> |
 
-工作空间
+### 工作空间
 
 | options()                       | 显示或设置当前的选项                      |
 | ------------------------------- | ------------------------------- |
@@ -73,22 +58,23 @@ Bioconductor Home - Common Work Flows
 | search()              | 显示已加载的包的列表  |
 
 \
+**Bioconductor**
+
+**Softwares**
+
+Bioconductor Home - Softwares - Biological Question
+
+* browseVignettes("DESeq2") 查看教程
+* NEWS 版本更新记录
+
+**Workflows**
+
+经典的分析流程
+
+Bioconductor Home - Common Work Flows
 
 
 
-
-数据类型
-
-\
-
-
-更多：
-
-[https://bookdown.org/xiao/RAnalysisBook/section-2.html](https://bookdown.org/xiao/RAnalysisBook/section-2.html)
-
-[https://haoeric.gitbooks.io/r-advanced/content/datastructure.html](https://haoeric.gitbooks.io/r-advanced/content/datastructure.html)
-
-\
 
 
 \
