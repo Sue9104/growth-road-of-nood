@@ -63,6 +63,7 @@
   * [Basic](programming/r/basic.md)
   * [Object](programming/r/object.md)
   * [Package](programming/r/package.md)
+  * [Plot](programming/r/plot.md)
 * [Makefile](programming/makefile.md)
 
 ## Algorithms
