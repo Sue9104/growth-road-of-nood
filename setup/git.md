@@ -2,7 +2,7 @@
 
 ## 分支
 
-![](../.gitbook/assets/git_workflow.png)
+![](../.gitbook/assets/git\_workflow.png)
 
 * Main分支
   * Master (只負責管理發布的狀態)
@@ -19,7 +19,7 @@
 
 ### 远端操作
 
-* git fetch 
+* git fetch&#x20;
 * git pull (--rebase)
 * push
 
@@ -36,7 +36,7 @@
 
 * git revert（有revert历史）
 * git reset（无历史记录）
-  * hard 徹底取消最近的提交 (ORIG_HEAD)
+  * hard 徹底取消最近的提交 (ORIG\_HEAD)
   * mixed 復原修改過的索引的狀態
   * soft 只取消提交
 
@@ -49,7 +49,7 @@
 ### changelog
 
 * install automatic tools: `cargo install clog-cli`
-* write .clog.toml 
+* write .clog.toml&#x20;
 
 ```
 [clog]
@@ -93,6 +93,14 @@ ssh-add ~/.ssh/id_ed25519
 
 
 
+### only support git@ not https
+
+```
+git config --global url."git@github.com:".insteadOf "https://github.com/"
+```
+
+&#x20;
+
 ### always ask username and password
 
 * Settings -> Developer Settings -> Personal assess token -> Generate new token
@@ -103,7 +111,7 @@ conda install gh --channel conda-forge
 gh auth login
 ```
 
-### gnutls_handshake() failed: The TLS connection was non-properly terminated
+### gnutls\_handshake() failed: The TLS connection was non-properly terminated
 
 ```
 git config --global --unset http.proxy
