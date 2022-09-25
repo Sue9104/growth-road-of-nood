@@ -12,6 +12,27 @@ awesome python: [https://github.com/jobbole/awesome-python-cn](https://github.co
 | Setuptools                                  | packaging                    |
 |                                             |                              |
 
+{% hint style="warning" %}
+Conda too slow
+
+`conda install -c conda-forge mamba`\
+``
+
+`mamba repoquery search numpy`
+
+`mamba repoquery whoneeds -t numpy`
+
+`mamba repoquery depends -t numpy`
+
+``
+{% endhint %}
+
+``
+
+{% hint style="warning" %}
+
+{% endhint %}
+
 ## Packages
 
 Repository: [pypi](https://pypi.org/)
