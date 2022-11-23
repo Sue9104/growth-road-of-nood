@@ -65,6 +65,7 @@
   * [Package](programming/r/package.md)
   * [Plot](programming/r/plot.md)
 * [Makefile](programming/makefile.md)
+* [C++](programming/c++.md)
 
 ## Algorithms
 
