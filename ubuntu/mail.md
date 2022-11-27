@@ -5,7 +5,7 @@
 ### Install
 
 ```
-sudo apt install ssmtp
+sudo apt install mailutils ssmtp
 ```
 
 ### Configure
