@@ -18,9 +18,18 @@ htop命令
 
 ## Terminal color scheme
 
-[Gogh](https://mayccoll.github.io/Gogh/#0) : Frontend Galaxy
+[Gogh](https://mayccoll.github.io/Gogh/#0) : Frontend Galaxy, Google Dark
 
 Set this colorscheme to default, and change the highlight color.
+
+### Font as macOS
+
+```
+# https://github.com/cstrap/monaco-font
+wget http://www.gringod.com/wp-upload/software/Fonts/Monaco_Linux.ttf
+sudo mv Monaco_Linux.ttf /usr/share/fonts/truetype/custom/
+sudo fc-cache -f -v
+```
 
 ## Login without password
 
