@@ -1,10 +1,12 @@
 # Package
 
-## Install
+## Installation
 
 > [https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages](https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages)
+>
+> [https://www.bioconductor.org/install/#install-bioconductor-packages](https://www.bioconductor.org/install/#install-bioconductor-packages)
 
-### repo
+### repos
 
 ```
 r <- getOption("repos")
