@@ -1,5 +1,77 @@
 # Package
 
+## Install
+
+> [https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages](https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages)
+
+### repo
+
+```
+r <- getOption("repos")
+getOption("repos")                                                        
+r["CRAN"] <- "https://mirrors.ustc.edu.cn/CRAN/"                               
+options(repos=r)                                                               
+options(BioC_mirror="http://mirrors.ustc.edu.cn/bioc/") 
+```
+
+### available packages
+
+```
+# CRAN
+av <- available.packages(filters=list())
+av[av[, "Package"] == pkg, c("Depends", "OS_type")]
+
+
+# bioconductor
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install() # install latest bioc
+source("https://bioconductor.org/biocLite.R") # R<3.5
+BiocInstaller::biocLite(c("GenomicFeatures")) # R<3.5
+
+## check available
+BiocManager::valid("*ggplot*") 
+
+## test that the installed packages
+
+# Updating packages
+
+```
+
+### Install packages
+
+```
+# install specific packages
+R CMD INSTALL -l /path/to/library pkg1 pk2
+install.packages(c("Rcmdr"), dependencies = TRUE)
+BiocManager::install(c("ggplot2")) 
+remotes::install_github()
+
+# check installed packages
+## CRAN
+inst <- packageStatus()$inst
+inst[inst$Status != "ok", c("Package", "Version", "Status")]
+## Bioconductor
+BiocManager::valid()
+BiocManager::valid()$too_new
+BiocManager::valid()$out_of_date
+
+# updating
+BiocManager::install()
+```
+
+### installed path
+
+```
+# installed path: R_HOME/library、 R_HOME/site-library、R_HOME/etc/Rprofile.site
+# installed path VAR: R_LIBS_USER and R_LIBS_SITE
+.libPaths()
+
+
+# library: R_LD_LIBRARY_PATH, R_JAVA_LD_LIBRARY_PATH and LD_LIBRARY_PATH
+## export R_LD_LIBRARY_PATH="`R RHOME`/lib:/opt/local/lib"
+```
+
 ## Devtools
 
 {% embed url="https://devtools.r-lib.org/" %}
