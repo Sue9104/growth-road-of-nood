@@ -21,6 +21,7 @@
 
 ## Programming
 
+* [Java](programming/java.md)
 * [Introduction](programming/introduction.md)
 * [perl](programming/perl/README.md)
   * [Dist::Zilla](programming/perl/dzil-configure.md)
