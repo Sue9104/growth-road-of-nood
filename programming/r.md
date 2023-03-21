@@ -87,6 +87,12 @@ Bioconductor Home - Common Work Flows
 install.packages("calendR")
 ## install from zip source
 install.packages("package_path", repos = NULL, type = "source")
+## install from source directory
+library(devtools)
+document()
+build()
+install()
+ 
 ## install from R-forge
 install.packages("MPAgenomics", repos = "http://R-Forge.R-project.org", dependencies = TRUE)
                  
@@ -97,8 +103,6 @@ devtools::install_github("account_name/repository_name")
 # install from Bioconduct
 install.packages("BiocManager")
 BiocManager::install("nanotatoR") 
-
-# install using cmd
 
 
 ```
